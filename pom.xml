@@ -29,11 +29,11 @@
   </build>
 
   <modules>
-    <module>domain</module>
-    <module>service-client</module>
-    <module>service</module>
     <module>webgui</module>
     <module>app</module>
+    <module>domain</module>
+    <module>service</module>
+    <module>service-client</module>
   </modules>
 
 </project>
