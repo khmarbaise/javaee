@@ -46,6 +46,7 @@
     <module>domain</module>
     <module>service</module>
     <module>service-client</module>
+    <module>appasm</module>
   </modules>
 
 </project>
