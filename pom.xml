@@ -47,6 +47,8 @@
     <module>service</module>
     <module>service-client</module>
     <module>appasm</module>
+    <module>assembly</module>
+    <module>shade</module>
   </modules>
 
 </project>
