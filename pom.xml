@@ -4,7 +4,7 @@
 
   <groupId>com.soebes.examples.j2ee</groupId>
   <artifactId>parent</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <properties>
@@ -15,7 +15,7 @@
     <developerConnection>scm:git:git@github.com:khmarbaise/javaee.git</developerConnection>
     <connection>scm:git:git://github.com/khmarbaise/javaee.git</connection>
     <url>https://github.com/khmarbaise/javaee</url>
-    <tag>parent-1.0.1</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
