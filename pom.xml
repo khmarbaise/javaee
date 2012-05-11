@@ -14,6 +14,28 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <scm>
+    <developerConnection>scm:git:git@github.com:khmarbaise/javaee.git</developerConnection>
+    <connection>scm:git:git://github.com/khmarbaise/javaee.git</connection>
+    <url>https://github.com/khmarbaise/javaee</url>
+  </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <url>file://${HOME}/distribution/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <url>file://${HOME}/distribution/snapshots/</url>
+    </snapshotRepository>
+    <site>
+      <id>site.supose.org</id>
+      <url>file://${HOME}/distribution/site/</url>
+    </site>
+  </distributionManagement>
+
+
   <build>
     <pluginManagement>
       <plugins>
