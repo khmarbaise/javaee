@@ -1,4 +1,7 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
@@ -9,7 +12,7 @@
   </parent>
 
   <packaging>pom</packaging>
-	<artifactId>assembly</artifactId>
+  <artifactId>assembly</artifactId>
 
   <dependencies>
     <dependency>
@@ -26,39 +29,39 @@
     </dependency>
   </dependencies>
 
-	<build>
-		<plugins>
-    <plugin>
+  <build>
+    <plugins>
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-assembly-plugin</artifactId>
-    <executions>
-        <execution>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <executions>
+          <execution>
             <id>jar-dev</id>
             <phase>package</phase>
             <goals>
-                <goal>single</goal>
+              <goal>single</goal>
             </goals>
             <configuration>
-        <descriptors>
-            <descriptor>jar-with-dev.xml</descriptor>
-        </descriptors>
+              <descriptors>
+                <descriptor>jar-with-dev.xml</descriptor>
+              </descriptors>
             </configuration>
-        </execution>
-        <execution>
+          </execution>
+          <execution>
             <id>jar-prod</id>
             <phase>package</phase>
             <goals>
-                <goal>single</goal>
+              <goal>single</goal>
             </goals>
             <configuration>
-        <descriptors>
-            <descriptor>jar-with-prod.xml</descriptor>
-        </descriptors>
+              <descriptors>
+                <descriptor>jar-with-prod.xml</descriptor>
+              </descriptors>
             </configuration>
-        </execution>
-    </executions>
-</plugin>
+          </execution>
+        </executions>
+      </plugin>
 
-		</plugins>
-	</build>
+    </plugins>
+  </build>
 </project>
