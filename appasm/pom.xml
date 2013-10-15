@@ -44,7 +44,7 @@
           </execution>
         </executions>
         <configuration>
-          <useAllDependencies>true</useAllDependencies>
+          <useAllProjectDependencies>true</useAllProjectDependencies>
           <repositoryLayout>flat</repositoryLayout>
           <programs>
             <program>
