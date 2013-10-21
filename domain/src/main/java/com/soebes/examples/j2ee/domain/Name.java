@@ -8,6 +8,9 @@ public final class Name {
         this.name = name;
     }
 
+    public void ThisIsTest() {
+      //
+    }
     @Override
     public String toString() {
         return name;
