@@ -27,6 +27,11 @@
       <version>${project.version}</version>
       <type>ejb</type>
     </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>shade</artifactId>
+      <version>${project.version}</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -36,26 +41,16 @@
         <artifactId>maven-assembly-plugin</artifactId>
         <executions>
           <execution>
-            <id>jar-dev</id>
+            <id>assemblies</id>
             <phase>package</phase>
             <goals>
               <goal>single</goal>
             </goals>
             <configuration>
               <descriptors>
-                <descriptor>jar-with-dev.xml</descriptor>
-              </descriptors>
-            </configuration>
-          </execution>
-          <execution>
-            <id>jar-prod</id>
-            <phase>package</phase>
-            <goals>
-              <goal>single</goal>
-            </goals>
-            <configuration>
-              <descriptors>
+                <descriptor>assembly.xml</descriptor>
                 <descriptor>jar-with-prod.xml</descriptor>
+                <descriptor>jar-with-dev.xml</descriptor>
               </descriptors>
             </configuration>
           </execution>
