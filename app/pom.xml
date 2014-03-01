@@ -14,15 +14,6 @@
   <artifactId>app</artifactId>
   <packaging>ear</packaging>
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-ear-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
-
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>
