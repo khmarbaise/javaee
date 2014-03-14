@@ -14,6 +14,7 @@
   <artifactId>service-client</artifactId>
 
   <dependencies>
+<!--
     <dependency>
       <groupId>com.soebes.examples.j2ee</groupId>
       <artifactId>domain</artifactId>
