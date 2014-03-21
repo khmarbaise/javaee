@@ -14,17 +14,10 @@
   <artifactId>service-client</artifactId>
 
   <dependencies>
-<!--
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>domain</artifactId>
       <version>${project.version}</version>
-    </dependency>
--->
-    <dependency>
-      <groupId>${project.groupId}</groupId>
-      <artifactId>domain</artifactId>
-      <version>1.0.4</version>
     </dependency>
   </dependencies>
 
