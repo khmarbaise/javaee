@@ -1,0 +1,517 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] parent
+[INFO] domain
+[INFO] service-client
+[INFO] webgui
+[INFO] service
+[INFO] app
+[INFO] appasm
+[INFO] shade
+[INFO] assembly
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building parent 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven) @ parent ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.3:attach-descriptor (attach-descriptor) @ parent ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building domain 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ domain ---
+[INFO] Deleting /Users/kama/ws-git/javaee/domain/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven) @ domain ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ domain ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/kama/ws-git/javaee/domain/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ domain ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/kama/ws-git/javaee/domain/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ domain ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/kama/ws-git/javaee/domain/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ domain ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ domain ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ domain ---
+[INFO] Building jar: /Users/kama/ws-git/javaee/domain/target/domain-1.0.4-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.3:attach-descriptor (attach-descriptor) @ domain ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building service-client 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ service-client ---
+[INFO] Deleting /Users/kama/ws-git/javaee/service-client/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven) @ service-client ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ service-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/kama/ws-git/javaee/service-client/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ service-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/kama/ws-git/javaee/service-client/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ service-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/kama/ws-git/javaee/service-client/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ service-client ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ service-client ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ service-client ---
+[INFO] Building jar: /Users/kama/ws-git/javaee/service-client/target/service-client-1.0.4-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.3:attach-descriptor (attach-descriptor) @ service-client ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building webgui 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ webgui ---
+[INFO] Deleting /Users/kama/ws-git/javaee/webgui/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven) @ webgui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ webgui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/kama/ws-git/javaee/webgui/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ webgui ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/kama/ws-git/javaee/webgui/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ webgui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/kama/ws-git/javaee/webgui/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ webgui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ webgui ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ webgui ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [webgui] in [/Users/kama/ws-git/javaee/webgui/target/webgui-1.0.4-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/Users/kama/ws-git/javaee/webgui/src/main/webapp]
+[INFO] Webapp assembled in [37 msecs]
+[INFO] Building war: /Users/kama/ws-git/javaee/webgui/target/webgui-1.0.4-SNAPSHOT.war
+[INFO] 
+[INFO] --- maven-site-plugin:3.3:attach-descriptor (attach-descriptor) @ webgui ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building service 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ service ---
+[INFO] Deleting /Users/kama/ws-git/javaee/service/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven) @ service ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/kama/ws-git/javaee/service/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/kama/ws-git/javaee/service/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/kama/ws-git/javaee/service/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ service ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-ejb-plugin:2.3:ejb (default-ejb) @ service ---
+[INFO] Building EJB service-1.0.4-SNAPSHOT with EJB version 3.1
+[INFO] Building jar: /Users/kama/ws-git/javaee/service/target/service-1.0.4-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.3:attach-descriptor (attach-descriptor) @ service ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building app 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ app ---
+[INFO] Deleting /Users/kama/ws-git/javaee/app/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven) @ app ---
+[INFO] 
+[INFO] --- maven-ear-plugin:2.9:generate-application-xml (default-generate-application-xml) @ app ---
+[INFO] Generating application.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/kama/ws-git/javaee/app/src/main/resources
+[INFO] 
+[INFO] --- maven-ear-plugin:2.9:ear (default-ear) @ app ---
+[INFO] Copying artifact [war:com.soebes.examples.j2ee:webgui:1.0.4-SNAPSHOT] to [webgui-1.0.4-SNAPSHOT.war]
+[INFO] Copying artifact [ejb:com.soebes.examples.j2ee:service:1.0.4-SNAPSHOT] to [service-1.0.4-SNAPSHOT.jar]
+[INFO] Copying artifact [jar:com.soebes.examples.j2ee:service-client:1.0.4-SNAPSHOT] to [service-client-1.0.4-SNAPSHOT.jar]
+[INFO] Copying artifact [jar:com.soebes.examples.j2ee:domain:1.0.4-SNAPSHOT] to [domain-1.0.4-SNAPSHOT.jar]
+[INFO] Copying artifact [jar:junit:junit:4.11] to [junit-4.11.jar]
+[INFO] Copying artifact [jar:org.hamcrest:hamcrest-core:1.3] to [hamcrest-core-1.3.jar]
+[INFO] Copying artifact [jar:org.testng:testng:6.8.7] to [testng-6.8.7.jar]
+[INFO] Copying artifact [jar:org.beanshell:bsh:2.0b4] to [bsh-2.0b4.jar]
+[INFO] Copying artifact [jar:com.beust:jcommander:1.32] to [jcommander-1.32.jar]
+[INFO] Copying artifact [jar:org.yaml:snakeyaml:1.12] to [snakeyaml-1.12.jar]
+[INFO] Copying artifact [jar:log4j:log4j:1.2.16] to [log4j-1.2.16.jar]
+[INFO] Could not find manifest file: /Users/kama/ws-git/javaee/app/target/app-1.0.4-SNAPSHOT/META-INF/MANIFEST.MF - Generating one
+[INFO] Building jar: /Users/kama/ws-git/javaee/app/target/app-1.0.4-SNAPSHOT.ear
+[INFO] 
+[INFO] --- maven-site-plugin:3.3:attach-descriptor (attach-descriptor) @ app ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building appasm 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ appasm ---
+[INFO] Deleting /Users/kama/ws-git/javaee/appasm/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven) @ appasm ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.3:attach-descriptor (attach-descriptor) @ appasm ---
+[INFO] 
+[INFO] --- appassembler-maven-plugin:1.7:assemble (package) @ appasm ---
+[INFO] Installing artifact /Users/kama/ws-git/javaee/webgui/target/webgui-1.0.4-SNAPSHOT.war to /Users/kama/ws-git/javaee/appasm/target/appassembler/repo/webgui-1.0.4-SNAPSHOT.war
+[INFO] Installing artifact /Users/kama/ws-git/javaee/service/target/service-1.0.4-SNAPSHOT.jar to /Users/kama/ws-git/javaee/appasm/target/appassembler/repo/service-1.0.4-SNAPSHOT.jar
+[INFO] Installing artifact /Users/kama/.m2/repository/junit/junit/4.11/junit-4.11.jar to /Users/kama/ws-git/javaee/appasm/target/appassembler/repo/junit-4.11.jar
+[INFO] Installing artifact /Users/kama/.m2/repository/org/testng/testng/6.8.7/testng-6.8.7.jar to /Users/kama/ws-git/javaee/appasm/target/appassembler/repo/testng-6.8.7.jar
+[INFO] Installing artifact /Users/kama/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar to /Users/kama/ws-git/javaee/appasm/target/appassembler/repo/log4j-1.2.16.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building shade 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ shade ---
+[INFO] Deleting /Users/kama/ws-git/javaee/shade/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven) @ shade ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ shade ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/kama/ws-git/javaee/shade/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ shade ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ shade ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/kama/ws-git/javaee/shade/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ shade ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ shade ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ shade ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /Users/kama/ws-git/javaee/shade/target/shade-1.0.4-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.3:attach-descriptor (attach-descriptor) @ shade ---
+[INFO] 
+[INFO] --- maven-shade-plugin:2.2:shade (test) @ shade ---
+[INFO] Including com.soebes.examples.j2ee:webgui:war:1.0.4-SNAPSHOT in the shaded jar.
+[INFO] Including com.soebes.examples.j2ee:service:ejb:1.0.4-SNAPSHOT in the shaded jar.
+[INFO] Including com.soebes.examples.j2ee:service-client:jar:1.0.4-SNAPSHOT in the shaded jar.
+[INFO] Including com.soebes.examples.j2ee:domain:jar:1.0.4-SNAPSHOT in the shaded jar.
+[INFO] Including junit:junit:jar:4.11 in the shaded jar.
+[INFO] Including org.hamcrest:hamcrest-core:jar:1.3 in the shaded jar.
+[INFO] Including org.testng:testng:jar:6.8.7 in the shaded jar.
+[INFO] Including org.beanshell:bsh:jar:2.0b4 in the shaded jar.
+[INFO] Including com.beust:jcommander:jar:1.32 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:1.12 in the shaded jar.
+[INFO] Including log4j:log4j:jar:1.2.16 in the shaded jar.
+[INFO] Attaching shaded artifact.
+[INFO] 
+[INFO] --- maven-shade-plugin:2.2:shade (dev) @ shade ---
+[INFO] Including com.soebes.examples.j2ee:webgui:war:1.0.4-SNAPSHOT in the shaded jar.
+[INFO] Including com.soebes.examples.j2ee:service:ejb:1.0.4-SNAPSHOT in the shaded jar.
+[INFO] Including com.soebes.examples.j2ee:service-client:jar:1.0.4-SNAPSHOT in the shaded jar.
+[INFO] Including com.soebes.examples.j2ee:domain:jar:1.0.4-SNAPSHOT in the shaded jar.
+[INFO] Including junit:junit:jar:4.11 in the shaded jar.
+[INFO] Including org.hamcrest:hamcrest-core:jar:1.3 in the shaded jar.
+[INFO] Including org.testng:testng:jar:6.8.7 in the shaded jar.
+[INFO] Including org.beanshell:bsh:jar:2.0b4 in the shaded jar.
+[INFO] Including com.beust:jcommander:jar:1.32 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:1.12 in the shaded jar.
+[INFO] Including log4j:log4j:jar:1.2.16 in the shaded jar.
+[INFO] Attaching shaded artifact.
+[INFO] 
+[INFO] --- maven-shade-plugin:2.2:shade (prod) @ shade ---
+[INFO] Including com.soebes.examples.j2ee:webgui:war:1.0.4-SNAPSHOT in the shaded jar.
+[INFO] Including com.soebes.examples.j2ee:service:ejb:1.0.4-SNAPSHOT in the shaded jar.
+[INFO] Including com.soebes.examples.j2ee:service-client:jar:1.0.4-SNAPSHOT in the shaded jar.
+[INFO] Including com.soebes.examples.j2ee:domain:jar:1.0.4-SNAPSHOT in the shaded jar.
+[INFO] Including junit:junit:jar:4.11 in the shaded jar.
+[INFO] Including org.hamcrest:hamcrest-core:jar:1.3 in the shaded jar.
+[INFO] Including org.testng:testng:jar:6.8.7 in the shaded jar.
+[INFO] Including org.beanshell:bsh:jar:2.0b4 in the shaded jar.
+[INFO] Including com.beust:jcommander:jar:1.32 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:1.12 in the shaded jar.
+[INFO] Including log4j:log4j:jar:1.2.16 in the shaded jar.
+[INFO] Attaching shaded artifact.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building assembly 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ assembly ---
+[INFO] Deleting /Users/kama/ws-git/javaee/assembly/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven) @ assembly ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.3:attach-descriptor (attach-descriptor) @ assembly ---
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.4:single (assemblies) @ assembly ---
+[INFO] Reading assembly descriptor: assembly.xml
+[INFO] Reading assembly descriptor: jar-with-prod.xml
+[INFO] Reading assembly descriptor: jar-with-dev.xml
+[WARNING] NOTE: Currently, inclusion of module dependencies may produce unpredictable results if a version conflict occurs.
+[INFO] Building zip: /Users/kama/ws-git/javaee/assembly/target/assembly-1.0.4-SNAPSHOT-archive.zip
+[INFO] Building jar: /Users/kama/ws-git/javaee/assembly/target/assembly-1.0.4-SNAPSHOT-prod.jar
+[INFO] Building jar: /Users/kama/ws-git/javaee/assembly/target/assembly-1.0.4-SNAPSHOT-dev.jar
+
+com.soebes.examples.j2ee:parent:1.0.4-SNAPSHOT
+
+  clean 87ms
+    org.apache.maven.plugins:maven-clean-plugin:2.5 (default-clean) 87ms
+
+  validate 271ms
+    org.apache.maven.plugins:maven-enforcer-plugin:1.3.1 (enforce-maven) 271ms
+
+
+com.soebes.examples.j2ee:domain:1.0.4-SNAPSHOT
+
+  package 738ms
+    org.apache.maven.plugins:maven-site-plugin:3.3 (attach-descriptor) 691ms
+
+  clean 4ms
+    org.apache.maven.plugins:maven-clean-plugin:2.5 (default-clean) 4ms
+
+  validate 6ms
+    org.apache.maven.plugins:maven-enforcer-plugin:1.3.1 (enforce-maven) 6ms
+
+  process-resources 86ms
+    org.apache.maven.plugins:maven-resources-plugin:2.6 (default-resources) 85ms
+
+  compile 424ms
+    org.apache.maven.plugins:maven-compiler-plugin:3.1 (default-compile) 424ms
+
+  process-test-resources 3ms
+    org.apache.maven.plugins:maven-resources-plugin:2.6 (default-testResources) 3ms
+
+  test-compile 2ms
+    org.apache.maven.plugins:maven-compiler-plugin:3.1 (default-testCompile) 2ms
+
+  test 80ms
+    org.apache.maven.plugins:maven-surefire-plugin:2.17 (default-test) 80ms
+
+
+com.soebes.examples.j2ee:service-client:1.0.4-SNAPSHOT
+
+  package 151ms
+    org.apache.maven.plugins:maven-jar-plugin:2.4 (default-jar) 138ms
+    org.apache.maven.plugins:maven-site-plugin:3.3 (attach-descriptor) 1ms
+
+  clean 2ms
+    org.apache.maven.plugins:maven-clean-plugin:2.5 (default-clean) 2ms
+
+  validate 15ms
+    org.apache.maven.plugins:maven-enforcer-plugin:1.3.1 (enforce-maven) 15ms
+
+  process-resources 1ms
+    org.apache.maven.plugins:maven-resources-plugin:2.6 (default-resources) 1ms
+
+  compile 27ms
+    org.apache.maven.plugins:maven-compiler-plugin:3.1 (default-compile) 27ms
+
+  process-test-resources 1ms
+    org.apache.maven.plugins:maven-resources-plugin:2.6 (default-testResources) 1ms
+
+  test-compile 2ms
+    org.apache.maven.plugins:maven-compiler-plugin:3.1 (default-testCompile) 2ms
+
+  test 3ms
+    org.apache.maven.plugins:maven-surefire-plugin:2.17 (default-test) 3ms
+
+
+com.soebes.examples.j2ee:webgui:1.0.4-SNAPSHOT
+
+  package 37ms
+    org.apache.maven.plugins:maven-jar-plugin:2.4 (default-jar) 14ms
+    org.apache.maven.plugins:maven-site-plugin:3.3 (attach-descriptor) 1ms
+
+  clean 4ms
+    org.apache.maven.plugins:maven-clean-plugin:2.5 (default-clean) 4ms
+
+  validate 15ms
+    org.apache.maven.plugins:maven-enforcer-plugin:1.3.1 (enforce-maven) 15ms
+
+  process-resources 1ms
+    org.apache.maven.plugins:maven-resources-plugin:2.6 (default-resources) 1ms
+
+  compile 72ms
+    org.apache.maven.plugins:maven-compiler-plugin:3.1 (default-compile) 72ms
+
+  process-test-resources 1ms
+    org.apache.maven.plugins:maven-resources-plugin:2.6 (default-testResources) 1ms
+
+  test-compile 2ms
+    org.apache.maven.plugins:maven-compiler-plugin:3.1 (default-testCompile) 2ms
+
+  test 3ms
+    org.apache.maven.plugins:maven-surefire-plugin:2.17 (default-test) 3ms
+
+
+com.soebes.examples.j2ee:service:1.0.4-SNAPSHOT
+
+  package 382ms
+    org.apache.maven.plugins:maven-war-plugin:2.4 (default-war) 368ms
+    org.apache.maven.plugins:maven-site-plugin:3.3 (attach-descriptor) 1ms
+
+  clean 3ms
+    org.apache.maven.plugins:maven-clean-plugin:2.5 (default-clean) 3ms
+
+  validate 8ms
+    org.apache.maven.plugins:maven-enforcer-plugin:1.3.1 (enforce-maven) 8ms
+
+  process-resources 1ms
+    org.apache.maven.plugins:maven-resources-plugin:2.6 (default-resources) 1ms
+
+  compile 43ms
+    org.apache.maven.plugins:maven-compiler-plugin:3.1 (default-compile) 43ms
+
+  process-test-resources 1ms
+    org.apache.maven.plugins:maven-resources-plugin:2.6 (default-testResources) 1ms
+
+  test-compile 2ms
+    org.apache.maven.plugins:maven-compiler-plugin:3.1 (default-testCompile) 2ms
+
+  test 2ms
+    org.apache.maven.plugins:maven-surefire-plugin:2.17 (default-test) 2ms
+
+
+com.soebes.examples.j2ee:app:1.0.4-SNAPSHOT
+
+  package 426ms
+    org.apache.maven.plugins:maven-ejb-plugin:2.3 (default-ejb) 403ms
+    org.apache.maven.plugins:maven-site-plugin:3.3 (attach-descriptor) 2ms
+
+  clean 3ms
+    org.apache.maven.plugins:maven-clean-plugin:2.5 (default-clean) 3ms
+
+  validate 23ms
+    org.apache.maven.plugins:maven-enforcer-plugin:1.3.1 (enforce-maven) 23ms
+
+  generate-resources 149ms
+    org.apache.maven.plugins:maven-ear-plugin:2.9 (default-generate-application-xml) 149ms
+
+  process-resources 1ms
+    org.apache.maven.plugins:maven-resources-plugin:2.6 (default-resources) 1ms
+
+
+com.soebes.examples.j2ee:appasm:1.0.4-SNAPSHOT
+
+  package 209ms
+    org.apache.maven.plugins:maven-ear-plugin:2.9 (default-ear) 193ms
+    org.apache.maven.plugins:maven-site-plugin:3.3 (attach-descriptor) 1ms
+
+  clean 2ms
+    org.apache.maven.plugins:maven-clean-plugin:2.5 (default-clean) 2ms
+
+  validate 10ms
+    org.apache.maven.plugins:maven-enforcer-plugin:1.3.1 (enforce-maven) 10ms
+
+
+com.soebes.examples.j2ee:shade:1.0.4-SNAPSHOT
+
+  package 95ms
+    org.apache.maven.plugins:maven-site-plugin:3.3 (attach-descriptor) 1ms
+    org.codehaus.mojo:appassembler-maven-plugin:1.7 (package) 81ms
+
+  clean 2ms
+    org.apache.maven.plugins:maven-clean-plugin:2.5 (default-clean) 2ms
+
+  validate 11ms
+    org.apache.maven.plugins:maven-enforcer-plugin:1.3.1 (enforce-maven) 10ms
+
+  process-resources 1ms
+    org.apache.maven.plugins:maven-resources-plugin:2.6 (default-resources) 1ms
+
+  compile 1ms
+    org.apache.maven.plugins:maven-compiler-plugin:3.1 (default-compile) 1ms
+
+  process-test-resources 1ms
+    org.apache.maven.plugins:maven-resources-plugin:2.6 (default-testResources) 1ms
+
+  test-compile 1ms
+    org.apache.maven.plugins:maven-compiler-plugin:3.1 (default-testCompile) 1ms
+
+  test 7ms
+    org.apache.maven.plugins:maven-surefire-plugin:2.17 (default-test) 7ms
+
+
+com.soebes.examples.j2ee:assembly:1.0.4-SNAPSHOT
+
+  package 1s 326ms
+    org.apache.maven.plugins:maven-jar-plugin:2.4 (default-jar) 5ms
+    org.apache.maven.plugins:maven-site-plugin:3.3 (attach-descriptor) 1ms
+    org.apache.maven.plugins:maven-shade-plugin:2.2 (test) 511ms
+    org.apache.maven.plugins:maven-shade-plugin:2.2 (dev) 373ms
+    org.apache.maven.plugins:maven-shade-plugin:2.2 (prod) 355ms
+
+  clean 3ms
+    org.apache.maven.plugins:maven-clean-plugin:2.5 (default-clean) 3ms
+
+  validate 22ms
+    org.apache.maven.plugins:maven-enforcer-plugin:1.3.1 (enforce-maven) 22ms
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] parent ............................................ SUCCESS [1.126s]
+[INFO] domain ............................................ SUCCESS [0.791s]
+[INFO] service-client .................................... SUCCESS [0.078s]
+[INFO] webgui ............................................ SUCCESS [0.489s]
+[INFO] service ........................................... SUCCESS [0.478s]
+[INFO] app ............................................... SUCCESS [0.391s]
+[INFO] appasm ............................................ SUCCESS [0.109s]
+[INFO] shade ............................................. SUCCESS [1.282s]
+[INFO] assembly .......................................... SUCCESS [2.103s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.414s
+[INFO] Finished at: Fri May 02 08:18:55 CEST 2014
+[INFO] Final Memory: 35M/981M
+[INFO] ------------------------------------------------------------------------
