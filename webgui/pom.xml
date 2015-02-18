@@ -25,4 +25,15 @@
     </dependency>
   </dependencies>
 
+  <build>
+    <resources>
+      <resource>
+        <directory>${project.basedir}</directory>
+        <includes>
+          <include>README.md</include>
+        </includes>
+      </resource>
+    </resources>
+  </build>
+
 </project>
