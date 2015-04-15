@@ -17,6 +17,9 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <!--
+       Hier ist ein Kommentar
+  -->
   <scm>
     <developerConnection>scm:git:git@github.com:khmarbaise/javaee.git</developerConnection>
     <connection>scm:git:git://github.com/khmarbaise/javaee.git</connection>
