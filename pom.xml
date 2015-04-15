@@ -24,7 +24,7 @@
     <developerConnection>scm:git:ssh://git@github.com/khmarbaise/javaee.git</developerConnection>
     <connection>scm:git:https://github.com/khmarbaise/javaee.git</connection>
     <url>https://github.com/khmarbaise/javaee</url>
-    <tag>HEAD</tag>
+    <tag>testBugFix</tag>
   </scm>
 
   <distributionManagement>
