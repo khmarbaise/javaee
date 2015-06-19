@@ -14,7 +14,7 @@
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>webgui</artifactId>
+      <artifactId>RCS</artifactId>
       <version>${project.version}</version>
       <type>war</type>
     </dependency>

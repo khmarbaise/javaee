@@ -75,7 +75,7 @@
 
 
   <modules>
-    <module>webgui</module>
+    <module>RCS</module>
     <module>app</module>
     <module>domain</module>
     <module>service</module>
