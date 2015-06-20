@@ -34,26 +34,10 @@
       <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
     <site>
-      <id>site.supose.org</id>
+      <id>site</id>
       <url>file://${HOME}/distribution/site/</url>
     </site>
   </distributionManagement>
-
-
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-release-plugin</artifactId>
-          <version>2.5</version>
-          <configuration>
-            <autoVersionSubmodules>true</autoVersionSubmodules>
-          </configuration>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
 
   <dependencies>
     <dependency>
