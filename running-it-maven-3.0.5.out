@@ -1739,17 +1739,17 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary:
 [INFO] 
-[INFO] Maven Integration Test :: Boostrap ................. SUCCESS [ 14.972 s]
-[INFO] Maven Integration Test :: Boostrap :: Group-1 ...... SUCCESS [  3.429 s]
-[INFO] Maven Integration Test :: Boostrap :: Group-2 ...... SUCCESS [  0.963 s]
-[INFO] Maven Integration Test :: Boostrap :: Group-3 ...... SUCCESS [  1.153 s]
-[INFO] Maven Integration Test :: Boostrap :: Group-4 ...... SUCCESS [  0.670 s]
-[INFO] Maven Integration Test :: Boostrap :: Group-5 ...... SUCCESS [  3.332 s]
-[INFO] Maven Integration Test :: Boostrap :: Group-6 ...... SUCCESS [  4.316 s]
+[INFO] Maven Integration Test :: Boostrap ................. SUCCESS [ 11.556 s]
+[INFO] Maven Integration Test :: Boostrap :: Group-1 ...... SUCCESS [  2.834 s]
+[INFO] Maven Integration Test :: Boostrap :: Group-2 ...... SUCCESS [  1.340 s]
+[INFO] Maven Integration Test :: Boostrap :: Group-3 ...... SUCCESS [  1.119 s]
+[INFO] Maven Integration Test :: Boostrap :: Group-4 ...... SUCCESS [  0.890 s]
+[INFO] Maven Integration Test :: Boostrap :: Group-5 ...... SUCCESS [  3.289 s]
+[INFO] Maven Integration Test :: Boostrap :: Group-6 ...... SUCCESS [  3.906 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 29.084 s
-[INFO] Finished at: 2015-12-12T14:31:51+00:00
-[INFO] Final Memory: 20M/736M
+[INFO] Total time: 25.159 s
+[INFO] Finished at: 2015-12-12T13:26:14+00:00
+[INFO] Final Memory: 21M/736M
 [INFO] ------------------------------------------------------------------------
