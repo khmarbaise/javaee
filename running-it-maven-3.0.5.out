@@ -1,0 +1,1755 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Maven Integration Test :: Boostrap
+[INFO] Maven Integration Test :: Boostrap :: Group-1
+[INFO] Maven Integration Test :: Boostrap :: Group-2
+[INFO] Maven Integration Test :: Boostrap :: Group-3
+[INFO] Maven Integration Test :: Boostrap :: Group-4
+[INFO] Maven Integration Test :: Boostrap :: Group-5
+[INFO] Maven Integration Test :: Boostrap :: Group-6
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Integration Test :: Boostrap 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.10/maven-dependency-plugin-2.10.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.10/maven-dependency-plugin-2.10.pom (12 KB at 26.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.10/maven-dependency-plugin-2.10.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.10/maven-dependency-plugin-2.10.jar (157 KB at 988.5 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom (7 KB at 85.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (9 KB at 119.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar (27 KB at 376.0 KB/sec)
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:resolve-plugins (get-all-deps) @ maven-it-boostrap ---
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.2/maven-reporting-impl-2.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.2/maven-reporting-impl-2.2.pom (5 KB at 34.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.9/plexus-archiver-2.9.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.9/plexus-archiver-2.9.pom (5 KB at 59.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom (4 KB at 50.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.pom (12 KB at 155.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom (55 KB at 709.5 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom (4 KB at 54.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom (9 KB at 117.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom (4 KB at 56.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.pom (765 B at 10.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven/2.0.2/maven-2.0.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven/2.0.2/maven-2.0.2.pom (13 KB at 178.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.pom (2 KB at 19.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.pom (2 KB at 17.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom (588 B at 8.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom (7 KB at 77.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.6/maven-dependency-analyzer-1.6.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.6/maven-dependency-analyzer-1.6.pom (6 KB at 59.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom (2 KB at 24.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-settings/2.0.5/maven-settings-2.0.5.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-settings/2.0.5/maven-settings-2.0.5.pom (2 KB at 24.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom (3 KB at 32.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-profile/2.0.5/maven-profile-2.0.5.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-profile/2.0.5/maven-profile-2.0.5.pom (2 KB at 23.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact-manager/2.0.5/maven-artifact-manager-2.0.5.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact-manager/2.0.5/maven-artifact-manager-2.0.5.pom (2 KB at 25.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/2.0.5/maven-repository-metadata-2.0.5.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/2.0.5/maven-repository-metadata-2.0.5.pom (2 KB at 21.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.pom (8 KB at 95.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.1.1/maven-invoker-2.1.1.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.1.1/maven-invoker-2.1.1.pom (6 KB at 28.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar (79 KB at 552.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar (13 KB at 77.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar (35 KB at 184.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar (30 KB at 138.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar (48 KB at 221.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar (153 KB at 630.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar (86 KB at 306.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.jar (22 KB at 77.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar (13 KB at 45.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar (39 KB at 125.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.2/maven-reporting-impl-2.2.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.jar (174 KB at 518.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.9/plexus-archiver-2.9.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.jar (11 KB at 29.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar (26 KB at 72.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.2/maven-reporting-impl-2.2.jar (17 KB at 44.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar (66 KB at 177.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar (37 KB at 89.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar (39 KB at 88.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.6/maven-dependency-analyzer-1.6.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar (42 KB at 95.5 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.9/plexus-archiver-2.9.jar (142 KB at 309.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.1.1/maven-invoker-2.1.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.6/maven-dependency-analyzer-1.6.jar (31 KB at 61.4 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar (80 KB at 157.1 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.1.1/maven-invoker-2.1.1.jar (30 KB at 55.4 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.jar (63 KB at 117.3 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar (370 KB at 665.5 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-ejb-plugin/2.5.1/maven-ejb-plugin-2.5.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-ejb-plugin/2.5.1/maven-ejb-plugin-2.5.1.jar (25 KB at 308.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.6/maven-war-plugin-2.6.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.6/maven-war-plugin-2.6.jar (86 KB at 808.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar (122 KB at 1214.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar (27 KB at 340.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (30 KB at 413.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.0.2/maven-compiler-plugin-2.0.2.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.0.2/maven-compiler-plugin-2.0.2.jar (18 KB at 185.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-ear-plugin/2.8/maven-ear-plugin-2.8.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-ear-plugin/2.8/maven-ear-plugin-2.8.jar (79 KB at 755.6 KB/sec)
+[INFO] Plugin Resolved: maven-war-plugin-2.6.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.6/maven-war-plugin-2.6.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.6/maven-war-plugin-2.6.pom (9 KB at 123.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-archiver/2.6/maven-archiver-2.6.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-archiver/2.6/maven-archiver-2.6.jar (23 KB at 286.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.4.1/plexus-io-2.4.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.4.1/plexus-io-2.4.1.jar (81 KB at 821.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.4/xstream-1.4.4.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.4/xstream-1.4.4.jar (473 KB at 1704.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-filtering/1.3/maven-filtering-1.3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-filtering/1.3/maven-filtering-1.3.jar (50 KB at 13.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-mapping/1.0/maven-mapping-1.0.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-mapping/1.0/maven-mapping-1.0.jar (10 KB at 140.5 KB/sec)
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-2.4.1.jar
+[INFO]     Plugin Dependency Resolved: commons-io-2.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.9.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.21.jar
+[INFO]     Plugin Dependency Resolved: xstream-1.4.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.3.jar
+[INFO]     Plugin Dependency Resolved: maven-mapping-1.0.jar
+[INFO] Plugin Resolved: maven-ejb-plugin-2.5.1.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-ejb-plugin/2.5.1/maven-ejb-plugin-2.5.1.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-ejb-plugin/2.5.1/maven-ejb-plugin-2.5.1.pom (6 KB at 80.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.10.2/plexus-archiver-2.10.2.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.10.2/plexus-archiver-2.10.2.jar (365 KB at 1697.0 KB/sec)
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.6.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.10.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.21.jar
+[INFO]     Plugin Dependency Resolved: commons-io-2.2.jar
+[INFO] Plugin Resolved: maven-install-plugin-2.4.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar (114 KB at 1207.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar (85 KB at 907.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar (56 KB at 823.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar (86 KB at 917.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar (226 KB at 1415.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar (12 KB at 156.5 KB/sec)
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-manager-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-digest-1.0.jar
+[INFO] Plugin Resolved: maven-clean-plugin-2.5.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.jar
+[INFO] Plugin Resolved: maven-site-plugin-3.3.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.pom (21 KB at 308.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-archiver/2.4.2/maven-archiver-2.4.2.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-archiver/2.4.2/maven-archiver-2.4.2.jar (20 KB at 229.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.4/doxia-core-1.4.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.4/doxia-core-1.4.jar (162 KB at 1309.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.4/doxia-module-apt-1.4.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.4/doxia-module-apt-1.4.jar (51 KB at 727.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.4/doxia-module-xdoc-1.4.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.4/doxia-module-xdoc-1.4.jar (36 KB at 477.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-markdown/1.4/doxia-module-markdown-1.4.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-markdown/1.4/doxia-module-markdown-1.4.jar (12 KB at 162.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-integration-tools/1.5/doxia-integration-tools-1.5.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-integration-tools/1.5/doxia-integration-tools-1.5.jar (45 KB at 620.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0/wagon-provider-api-1.0.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0/wagon-provider-api-1.0.jar (52 KB at 775.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.jar (174 KB at 1341.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.5.10/plexus-utils-1.5.10.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.5.10/plexus-utils-1.5.10.jar (274 KB at 1457.1 KB/sec)
+[INFO]     Plugin Dependency Resolved: maven-reporting-exec-1.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-model-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-builder-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.4.2.jar
+[INFO]     Plugin Dependency Resolved: doxia-sink-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-logging-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-core-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-xhtml-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-apt-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-xdoc-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-fml-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-markdown-1.4.jar
+[INFO]     Plugin Dependency Resolved: servlet-api-2.5.jar
+[INFO]     Plugin Dependency Resolved: doxia-decoration-model-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-site-renderer-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-integration-tools-1.5.jar
+[INFO]     Plugin Dependency Resolved: wagon-provider-api-1.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-1.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-i18n-1.0-beta-7.jar
+[INFO]     Plugin Dependency Resolved: velocity-1.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-velocity-1.1.8.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.5.10.jar
+[INFO]     Plugin Dependency Resolved: jetty-6.1.25.jar
+[INFO]     Plugin Dependency Resolved: jetty-util-6.1.25.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.5.jar
+[INFO]     Plugin Dependency Resolved: commons-io-1.4.jar
+[INFO] Plugin Resolved: maven-surefire-plugin-2.12.4.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (11 KB at 157.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom (14 KB at 170.5 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar (13 KB at 193.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.jar (34 KB at 464.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12.4/maven-surefire-common-2.12.4.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12.4/maven-surefire-common-2.12.4.jar (257 KB at 1378.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar (119 KB at 1238.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.jar (156 KB at 1267.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-toolchain/2.0.9/maven-toolchain-2.0.9.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-toolchain/2.0.9/maven-toolchain-2.0.9.jar (38 KB at 426.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.1/maven-plugin-annotations-3.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.1/maven-plugin-annotations-3.1.jar (14 KB at 190.2 KB/sec)
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: surefire-booter-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: maven-surefire-common-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.8.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-toolchain-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-annotations-3.1.jar
+[INFO] Plugin Resolved: maven-jar-plugin-2.2.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-project/2.0.7/maven-project-2.0.7.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-project/2.0.7/maven-project-2.0.7.jar (114 KB at 1223.8 KB/sec)
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.7.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-1.0-alpha-9.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-1.0-alpha-1.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.4.9.jar
+[INFO] Plugin Resolved: maven-dependency-plugin-2.10.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-manager-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-repository-metadata-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-api-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-impl-2.2.jar
+[INFO]     Plugin Dependency Resolved: commons-io-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-sink-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-site-renderer-1.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.9.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: file-management-1.2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-2.4.jar
+[INFO]     Plugin Dependency Resolved: maven-dependency-analyzer-1.6.jar
+[INFO]     Plugin Dependency Resolved: maven-dependency-tree-2.2.jar
+[INFO]     Plugin Dependency Resolved: maven-common-artifact-filters-1.4.jar
+[INFO]     Plugin Dependency Resolved: maven-invoker-2.1.1.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.6.jar
+[INFO]     Plugin Dependency Resolved: commons-collections-3.2.1.jar
+[INFO]     Plugin Dependency Resolved: classworlds-1.1.jar
+[INFO] Plugin Resolved: maven-ear-plugin-2.8.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-ear-plugin/2.8/maven-ear-plugin-2.8.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-ear-plugin/2.8/maven-ear-plugin-2.8.pom (9 KB at 93.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar (149 KB at 1042.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.1.2/plexus-archiver-2.1.2.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.1.2/plexus-archiver-2.1.2.jar (181 KB at 1149.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar (33 KB at 437.9 KB/sec)
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.1.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-container-default-1.0-alpha-9-stable-1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.0-beta-2.jar
+[INFO] Plugin Resolved: maven-compiler-plugin-2.0.2.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.0.2/maven-compiler-plugin-2.0.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.0.2/maven-compiler-plugin-2.0.2.pom (3 KB at 36.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/8/maven-plugins-8.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/8/maven-plugins-8.pom (6 KB at 84.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.5.3/plexus-compiler-api-1.5.3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.5.3/plexus-compiler-api-1.5.3.jar (20 KB at 258.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.5.3/plexus-compiler-manager-1.5.3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.5.3/plexus-compiler-manager-1.5.3.jar (6 KB at 72.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.5.3/plexus-compiler-javac-1.5.3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.5.3/plexus-compiler-javac-1.5.3.jar (14 KB at 191.0 KB/sec)
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.0.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-api-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-manager-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-javac-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.jar
+[INFO] Plugin Resolved: maven-deploy-plugin-2.7.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom (6 KB at 84.3 KB/sec)
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.5.6.jar
+[INFO] Plugin Resolved: maven-resources-plugin-2.7.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-monitor-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.15.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.19.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ maven-it-boostrap ---
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom (3 KB at 37.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom (19 KB at 256.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom (2 KB at 15.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom (5 KB at 65.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar (48 KB at 705.1 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar (35 KB at 506.1 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar (24 KB at 346.4 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar (29 KB at 409.3 KB/sec)
+[INFO] Installing F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\pom.xml to f:\ws\m3-its\it-local-repo\org\apache\maven\its\bootstrap\maven-it-boostrap\1.0\maven-it-boostrap-1.0.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Integration Test :: Boostrap :: Group-1 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ group-1 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-1\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ group-1 ---
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.5.3/plexus-compiler-api-1.5.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.5.3/plexus-compiler-api-1.5.3.pom (624 B at 0.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler/1.5.3/plexus-compiler-1.5.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler/1.5.3/plexus-compiler-1.5.3.pom (2 KB at 20.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.5.3/plexus-compiler-manager-1.5.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.5.3/plexus-compiler-manager-1.5.3.pom (634 B at 9.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.5.3/plexus-compiler-javac-1.5.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.5.3/plexus-compiler-javac-1.5.3.pom (797 B at 11.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/1.5.3/plexus-compilers-1.5.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/1.5.3/plexus-compilers-1.5.3.pom (8 KB at 82.1 KB/sec)
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ group-1 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ group-1 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ group-1 ---
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.pom (3 KB at 45.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.pom (3 KB at 31.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12.4/maven-surefire-common-2.12.4.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12.4/maven-surefire-common-2.12.4.pom (6 KB at 83.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.1/maven-plugin-annotations-3.1.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.1/maven-plugin-annotations-3.1.pom (2 KB at 24.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.1/maven-plugin-tools-3.1.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.1/maven-plugin-tools-3.1.pom (16 KB at 222.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-toolchain/2.0.9/maven-toolchain-2.0.9.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-toolchain/2.0.9/maven-toolchain-2.0.9.pom (4 KB at 52.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.pom (4 KB at 19.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar (48 KB at 631.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.jar (31 KB at 356.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar (35 KB at 406.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.jar (115 KB at 1136.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar (86 KB at 812.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar (29 KB at 204.3 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar (14 KB at 90.4 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar (21 KB at 135.9 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar (37 KB at 223.3 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.jar (11 KB at 59.4 KB/sec)
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ group-1 ---
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-settings/2.0.7/maven-settings-2.0.7.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-profile/2.0.7/maven-profile-2.0.7.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/2.0.7/maven-repository-metadata-2.0.7.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-model/2.0.7/maven-model-2.0.7.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact-manager/2.0.7/maven-artifact-manager-2.0.7.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-profile/2.0.7/maven-profile-2.0.7.jar (35 KB at 491.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.0.7/maven-plugin-registry-2.0.7.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact-manager/2.0.7/maven-artifact-manager-2.0.7.jar (56 KB at 777.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.0.7/maven-artifact-2.0.7.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/2.0.7/maven-repository-metadata-2.0.7.jar (24 KB at 332.0 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-settings/2.0.7/maven-settings-2.0.7.jar (48 KB at 648.1 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-model/2.0.7/maven-model-2.0.7.jar (85 KB at 819.5 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.0.7/maven-plugin-registry-2.0.7.jar (29 KB at 204.7 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.0.7/maven-artifact-2.0.7.jar (86 KB at 513.8 KB/sec)
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-1\target\group-1-1.0.jar
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:resolve-plugins (get-all-deps) @ group-1 ---
+[INFO] Plugin Resolved: maven-war-plugin-2.6.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-2.4.1.jar
+[INFO]     Plugin Dependency Resolved: commons-io-2.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.9.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.21.jar
+[INFO]     Plugin Dependency Resolved: xstream-1.4.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.3.jar
+[INFO]     Plugin Dependency Resolved: maven-mapping-1.0.jar
+[INFO] Plugin Resolved: maven-ejb-plugin-2.5.1.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.6.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.10.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.21.jar
+[INFO]     Plugin Dependency Resolved: commons-io-2.2.jar
+[INFO] Plugin Resolved: maven-install-plugin-2.4.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-manager-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-digest-1.0.jar
+[INFO] Plugin Resolved: maven-clean-plugin-2.5.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.jar
+[INFO] Plugin Resolved: maven-site-plugin-3.3.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-exec-1.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-model-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-builder-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.4.2.jar
+[INFO]     Plugin Dependency Resolved: doxia-sink-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-logging-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-core-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-xhtml-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-apt-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-xdoc-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-fml-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-markdown-1.4.jar
+[INFO]     Plugin Dependency Resolved: servlet-api-2.5.jar
+[INFO]     Plugin Dependency Resolved: doxia-decoration-model-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-site-renderer-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-integration-tools-1.5.jar
+[INFO]     Plugin Dependency Resolved: wagon-provider-api-1.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-1.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-i18n-1.0-beta-7.jar
+[INFO]     Plugin Dependency Resolved: velocity-1.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-velocity-1.1.8.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.5.10.jar
+[INFO]     Plugin Dependency Resolved: jetty-6.1.25.jar
+[INFO]     Plugin Dependency Resolved: jetty-util-6.1.25.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.5.jar
+[INFO]     Plugin Dependency Resolved: commons-io-1.4.jar
+[INFO] Plugin Resolved: maven-surefire-plugin-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: surefire-booter-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: maven-surefire-common-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.8.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-toolchain-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-annotations-3.1.jar
+[INFO] Plugin Resolved: maven-jar-plugin-2.2.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.7.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-1.0-alpha-9.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-1.0-alpha-1.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.4.9.jar
+[INFO] Plugin Resolved: maven-dependency-plugin-2.10.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-manager-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-repository-metadata-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-api-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-impl-2.2.jar
+[INFO]     Plugin Dependency Resolved: commons-io-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-sink-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-site-renderer-1.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.9.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: file-management-1.2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-2.4.jar
+[INFO]     Plugin Dependency Resolved: maven-dependency-analyzer-1.6.jar
+[INFO]     Plugin Dependency Resolved: maven-dependency-tree-2.2.jar
+[INFO]     Plugin Dependency Resolved: maven-common-artifact-filters-1.4.jar
+[INFO]     Plugin Dependency Resolved: maven-invoker-2.1.1.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.6.jar
+[INFO]     Plugin Dependency Resolved: commons-collections-3.2.1.jar
+[INFO]     Plugin Dependency Resolved: classworlds-1.1.jar
+[INFO] Plugin Resolved: maven-ear-plugin-2.8.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.1.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-container-default-1.0-alpha-9-stable-1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.0-beta-2.jar
+[INFO] Plugin Resolved: maven-compiler-plugin-2.0.2.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.0.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-api-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-manager-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-javac-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.jar
+[INFO] Plugin Resolved: maven-deploy-plugin-2.7.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.5.6.jar
+[INFO] Plugin Resolved: maven-resources-plugin-2.7.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-monitor-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.15.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.19.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ group-1 ---
+[INFO] Installing F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-1\target\group-1-1.0.jar to f:\ws\m3-its\it-local-repo\org\apache\maven\its\bootstrap\group-1\1.0\group-1-1.0.jar
+[INFO] Installing F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-1\pom.xml to f:\ws\m3-its\it-local-repo\org\apache\maven\its\bootstrap\group-1\1.0\group-1-1.0.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Integration Test :: Boostrap :: Group-2 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ group-2 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-2\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ group-2 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ group-2 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ group-2 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ group-2 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ group-2 ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-2\target\group-2-1.0.jar
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:resolve-plugins (get-all-deps) @ group-2 ---
+[INFO] Plugin Resolved: maven-war-plugin-2.6.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-2.4.1.jar
+[INFO]     Plugin Dependency Resolved: commons-io-2.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.9.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.21.jar
+[INFO]     Plugin Dependency Resolved: xstream-1.4.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.3.jar
+[INFO]     Plugin Dependency Resolved: maven-mapping-1.0.jar
+[INFO] Plugin Resolved: maven-ejb-plugin-2.5.1.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.6.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.10.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.21.jar
+[INFO]     Plugin Dependency Resolved: commons-io-2.2.jar
+[INFO] Plugin Resolved: maven-install-plugin-2.4.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-manager-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-digest-1.0.jar
+[INFO] Plugin Resolved: maven-clean-plugin-2.5.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.jar
+[INFO] Plugin Resolved: maven-site-plugin-3.3.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-exec-1.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-model-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-builder-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.4.2.jar
+[INFO]     Plugin Dependency Resolved: doxia-sink-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-logging-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-core-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-xhtml-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-apt-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-xdoc-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-fml-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-markdown-1.4.jar
+[INFO]     Plugin Dependency Resolved: servlet-api-2.5.jar
+[INFO]     Plugin Dependency Resolved: doxia-decoration-model-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-site-renderer-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-integration-tools-1.5.jar
+[INFO]     Plugin Dependency Resolved: wagon-provider-api-1.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-1.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-i18n-1.0-beta-7.jar
+[INFO]     Plugin Dependency Resolved: velocity-1.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-velocity-1.1.8.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.5.10.jar
+[INFO]     Plugin Dependency Resolved: jetty-6.1.25.jar
+[INFO]     Plugin Dependency Resolved: jetty-util-6.1.25.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.5.jar
+[INFO]     Plugin Dependency Resolved: commons-io-1.4.jar
+[INFO] Plugin Resolved: maven-surefire-plugin-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: surefire-booter-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: maven-surefire-common-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.8.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-toolchain-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-annotations-3.1.jar
+[INFO] Plugin Resolved: maven-jar-plugin-2.2.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.7.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-1.0-alpha-9.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-1.0-alpha-1.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.4.9.jar
+[INFO] Plugin Resolved: maven-dependency-plugin-2.10.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-manager-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-repository-metadata-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-api-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-impl-2.2.jar
+[INFO]     Plugin Dependency Resolved: commons-io-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-sink-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-site-renderer-1.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.9.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: file-management-1.2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-2.4.jar
+[INFO]     Plugin Dependency Resolved: maven-dependency-analyzer-1.6.jar
+[INFO]     Plugin Dependency Resolved: maven-dependency-tree-2.2.jar
+[INFO]     Plugin Dependency Resolved: maven-common-artifact-filters-1.4.jar
+[INFO]     Plugin Dependency Resolved: maven-invoker-2.1.1.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.6.jar
+[INFO]     Plugin Dependency Resolved: commons-collections-3.2.1.jar
+[INFO]     Plugin Dependency Resolved: classworlds-1.1.jar
+[INFO] Plugin Resolved: maven-ear-plugin-2.8.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.1.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-container-default-1.0-alpha-9-stable-1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.0-beta-2.jar
+[INFO] Plugin Resolved: maven-compiler-plugin-2.0.2.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.0.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-api-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-manager-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-javac-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.jar
+[INFO] Plugin Resolved: maven-deploy-plugin-2.7.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.5.6.jar
+[INFO] Plugin Resolved: maven-resources-plugin-2.7.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-monitor-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.15.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.19.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ group-2 ---
+[INFO] Installing F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-2\target\group-2-1.0.jar to f:\ws\m3-its\it-local-repo\org\apache\maven\its\bootstrap\group-2\1.0\group-2-1.0.jar
+[INFO] Installing F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-2\pom.xml to f:\ws\m3-its\it-local-repo\org\apache\maven\its\bootstrap\group-2\1.0\group-2-1.0.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Integration Test :: Boostrap :: Group-3 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.4/plexus-component-annotations-1.5.4.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.4/plexus-component-annotations-1.5.4.pom (815 B at 9.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.5.4/plexus-containers-1.5.4.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.5.4/plexus-containers-1.5.4.pom (5 KB at 56.7 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ group-3 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-3\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ group-3 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ group-3 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ group-3 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ group-3 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ group-3 ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-3\target\group-3-1.0.jar
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:resolve-plugins (get-all-deps) @ group-3 ---
+[INFO] Plugin Resolved: maven-war-plugin-2.6.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-2.4.1.jar
+[INFO]     Plugin Dependency Resolved: commons-io-2.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.9.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.21.jar
+[INFO]     Plugin Dependency Resolved: xstream-1.4.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.3.jar
+[INFO]     Plugin Dependency Resolved: maven-mapping-1.0.jar
+[INFO] Plugin Resolved: maven-ejb-plugin-2.5.1.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.6.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.10.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.21.jar
+[INFO]     Plugin Dependency Resolved: commons-io-2.2.jar
+[INFO] Plugin Resolved: maven-install-plugin-2.4.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-manager-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-digest-1.0.jar
+[INFO] Plugin Resolved: maven-clean-plugin-2.5.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.jar
+[INFO] Plugin Resolved: maven-site-plugin-3.3.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-exec-1.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-model-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-builder-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.4.2.jar
+[INFO]     Plugin Dependency Resolved: doxia-sink-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-logging-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-core-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-xhtml-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-apt-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-xdoc-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-fml-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-markdown-1.4.jar
+[INFO]     Plugin Dependency Resolved: servlet-api-2.5.jar
+[INFO]     Plugin Dependency Resolved: doxia-decoration-model-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-site-renderer-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-integration-tools-1.5.jar
+[INFO]     Plugin Dependency Resolved: wagon-provider-api-1.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-1.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-i18n-1.0-beta-7.jar
+[INFO]     Plugin Dependency Resolved: velocity-1.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-velocity-1.1.8.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.5.10.jar
+[INFO]     Plugin Dependency Resolved: jetty-6.1.25.jar
+[INFO]     Plugin Dependency Resolved: jetty-util-6.1.25.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.5.jar
+[INFO]     Plugin Dependency Resolved: commons-io-1.4.jar
+[INFO] Plugin Resolved: maven-surefire-plugin-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: surefire-booter-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: maven-surefire-common-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.8.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-toolchain-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-annotations-3.1.jar
+[INFO] Plugin Resolved: maven-jar-plugin-2.2.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.7.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-1.0-alpha-9.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-1.0-alpha-1.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.4.9.jar
+[INFO] Plugin Resolved: maven-dependency-plugin-2.10.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-manager-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-repository-metadata-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-api-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-impl-2.2.jar
+[INFO]     Plugin Dependency Resolved: commons-io-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-sink-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-site-renderer-1.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.9.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: file-management-1.2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-2.4.jar
+[INFO]     Plugin Dependency Resolved: maven-dependency-analyzer-1.6.jar
+[INFO]     Plugin Dependency Resolved: maven-dependency-tree-2.2.jar
+[INFO]     Plugin Dependency Resolved: maven-common-artifact-filters-1.4.jar
+[INFO]     Plugin Dependency Resolved: maven-invoker-2.1.1.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.6.jar
+[INFO]     Plugin Dependency Resolved: commons-collections-3.2.1.jar
+[INFO]     Plugin Dependency Resolved: classworlds-1.1.jar
+[INFO] Plugin Resolved: maven-ear-plugin-2.8.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.1.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-container-default-1.0-alpha-9-stable-1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.0-beta-2.jar
+[INFO] Plugin Resolved: maven-compiler-plugin-2.0.2.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.0.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-api-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-manager-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-javac-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.jar
+[INFO] Plugin Resolved: maven-deploy-plugin-2.7.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.5.6.jar
+[INFO] Plugin Resolved: maven-resources-plugin-2.7.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-monitor-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.15.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.19.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ group-3 ---
+[INFO] Installing F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-3\target\group-3-1.0.jar to f:\ws\m3-its\it-local-repo\org\apache\maven\its\bootstrap\group-3\1.0\group-3-1.0.jar
+[INFO] Installing F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-3\pom.xml to f:\ws\m3-its\it-local-repo\org\apache\maven\its\bootstrap\group-3\1.0\group-3-1.0.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Integration Test :: Boostrap :: Group-4 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.pom (2 KB at 17.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-6/wagon-1.0-beta-6.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-6/wagon-1.0-beta-6.pom (13 KB at 168.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar (52 KB at 763.8 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ group-4 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-4\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ group-4 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ group-4 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ group-4 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ group-4 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ group-4 ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-4\target\group-4-1.0.jar
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:resolve-plugins (get-all-deps) @ group-4 ---
+[INFO] Plugin Resolved: maven-war-plugin-2.6.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-2.4.1.jar
+[INFO]     Plugin Dependency Resolved: commons-io-2.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.9.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.21.jar
+[INFO]     Plugin Dependency Resolved: xstream-1.4.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.3.jar
+[INFO]     Plugin Dependency Resolved: maven-mapping-1.0.jar
+[INFO] Plugin Resolved: maven-ejb-plugin-2.5.1.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.6.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.10.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.21.jar
+[INFO]     Plugin Dependency Resolved: commons-io-2.2.jar
+[INFO] Plugin Resolved: maven-install-plugin-2.4.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-manager-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-digest-1.0.jar
+[INFO] Plugin Resolved: maven-clean-plugin-2.5.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.jar
+[INFO] Plugin Resolved: maven-site-plugin-3.3.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-exec-1.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-model-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-builder-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.4.2.jar
+[INFO]     Plugin Dependency Resolved: doxia-sink-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-logging-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-core-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-xhtml-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-apt-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-xdoc-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-fml-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-markdown-1.4.jar
+[INFO]     Plugin Dependency Resolved: servlet-api-2.5.jar
+[INFO]     Plugin Dependency Resolved: doxia-decoration-model-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-site-renderer-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-integration-tools-1.5.jar
+[INFO]     Plugin Dependency Resolved: wagon-provider-api-1.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-1.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-i18n-1.0-beta-7.jar
+[INFO]     Plugin Dependency Resolved: velocity-1.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-velocity-1.1.8.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.5.10.jar
+[INFO]     Plugin Dependency Resolved: jetty-6.1.25.jar
+[INFO]     Plugin Dependency Resolved: jetty-util-6.1.25.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.5.jar
+[INFO]     Plugin Dependency Resolved: commons-io-1.4.jar
+[INFO] Plugin Resolved: maven-surefire-plugin-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: surefire-booter-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: maven-surefire-common-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.8.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-toolchain-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-annotations-3.1.jar
+[INFO] Plugin Resolved: maven-jar-plugin-2.2.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.7.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-1.0-alpha-9.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-1.0-alpha-1.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.4.9.jar
+[INFO] Plugin Resolved: maven-dependency-plugin-2.10.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-manager-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-repository-metadata-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-api-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-impl-2.2.jar
+[INFO]     Plugin Dependency Resolved: commons-io-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-sink-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-site-renderer-1.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.9.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: file-management-1.2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-2.4.jar
+[INFO]     Plugin Dependency Resolved: maven-dependency-analyzer-1.6.jar
+[INFO]     Plugin Dependency Resolved: maven-dependency-tree-2.2.jar
+[INFO]     Plugin Dependency Resolved: maven-common-artifact-filters-1.4.jar
+[INFO]     Plugin Dependency Resolved: maven-invoker-2.1.1.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.6.jar
+[INFO]     Plugin Dependency Resolved: commons-collections-3.2.1.jar
+[INFO]     Plugin Dependency Resolved: classworlds-1.1.jar
+[INFO] Plugin Resolved: maven-ear-plugin-2.8.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.1.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-container-default-1.0-alpha-9-stable-1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.0-beta-2.jar
+[INFO] Plugin Resolved: maven-compiler-plugin-2.0.2.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.0.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-api-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-manager-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-javac-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.jar
+[INFO] Plugin Resolved: maven-deploy-plugin-2.7.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.5.6.jar
+[INFO] Plugin Resolved: maven-resources-plugin-2.7.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-monitor-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.15.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.19.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ group-4 ---
+[INFO] Installing F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-4\target\group-4-1.0.jar to f:\ws\m3-its\it-local-repo\org\apache\maven\its\bootstrap\group-4\1.0\group-4-1.0.jar
+[INFO] Installing F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-4\pom.xml to f:\ws\m3-its\it-local-repo\org\apache\maven\its\bootstrap\group-4\1.0\group-4-1.0.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Integration Test :: Boostrap :: Group-5 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/its/maven-core-it-support/1.3/maven-core-it-support-1.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/its/maven-core-it-support/1.3/maven-core-it-support-1.3.pom (2 KB at 22.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.7/maven-dependency-plugin-2.7.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.7/maven-dependency-plugin-2.7.pom (12 KB at 141.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom (5 KB at 54.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.pom (3 KB at 33.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.5.7/plexus-utils-1.5.7.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.5.7/plexus-utils-1.5.7.pom (8 KB at 109.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.pom (5 KB at 57.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.0/doxia-sitetools-1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.0/doxia-sitetools-1.0.pom (10 KB at 133.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.pom (4 KB at 44.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.pom (3 KB at 32.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-modules/1.0/doxia-modules-1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-modules/1.0/doxia-modules-1.0.pom (3 KB at 32.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.pom (3 KB at 36.5 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.pom (3 KB at 30.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.pom (2 KB at 21.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom (6 KB at 85.5 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-components/11/maven-shared-components-11.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-components/11/maven-shared-components-11.pom (9 KB at 114.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.pom (4 KB at 47.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.pom (3 KB at 30.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.pom (4 KB at 42.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.pom (6 KB at 68.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom (266 B at 3.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom (5 KB at 56.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.0/maven-dependency-tree-2.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.0/maven-dependency-tree-2.0.pom (5 KB at 63.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom (3 KB at 34.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven/2.2.0/maven-2.2.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven/2.2.0/maven-2.2.0.pom (22 KB at 313.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-settings/2.2.0/maven-settings-2.2.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-settings/2.2.0/maven-settings-2.2.0.pom (3 KB at 30.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-model/2.2.0/maven-model-2.2.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-model/2.2.0/maven-model-2.2.0.pom (4 KB at 46.5 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-profile/2.2.0/maven-profile-2.2.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-profile/2.2.0/maven-profile-2.2.0.pom (3 KB at 30.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact-manager/2.2.0/maven-artifact-manager-2.2.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact-manager/2.2.0/maven-artifact-manager-2.2.0.pom (4 KB at 43.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom (2 KB at 25.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom (2 KB at 20.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom (2 KB at 27.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.pom (5 KB at 70.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/skins/maven-default-skin/1.0/maven-default-skin-1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/skins/maven-default-skin/1.0/maven-default-skin-1.0.pom (451 B at 6.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/skins/maven-skins/2/maven-skins-2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/skins/maven-skins/2/maven-skins-2.pom (2 KB at 25.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/its/maven-core-it-support/1.3/maven-core-it-support-1.3.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.7/maven-dependency-plugin-2.7.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar (41 KB at 598.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar (21 KB at 283.5 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/its/maven-core-it-support/1.3/maven-core-it-support-1.3.jar (3 KB at 38.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar (54 KB at 735.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.7/maven-dependency-plugin-2.7.jar (146 KB at 1148.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.jar (46 KB at 346.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.jar (48 KB at 357.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.jar (46 KB at 340.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.jar (19 KB at 133.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.jar (28 KB at 142.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.jar (22 KB at 109.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.0/maven-dependency-tree-2.0.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.jar (57 KB at 278.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.jar (27 KB at 131.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar (43 KB at 166.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/skins/maven-default-skin/1.0/maven-default-skin-1.0.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.jar (183 KB at 697.7 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.0/maven-dependency-tree-2.0.jar (55 KB at 208.1 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.jar (29 KB at 105.7 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/skins/maven-default-skin/1.0/maven-default-skin-1.0.jar (8 KB at 24.9 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.jar (227 KB at 638.0 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ group-5 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-5\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ group-5 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ group-5 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ group-5 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ group-5 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ group-5 ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-5\target\group-5-1.0.jar
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:resolve-plugins (get-all-deps) @ group-5 ---
+[INFO] Plugin Resolved: maven-war-plugin-2.6.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-2.4.1.jar
+[INFO]     Plugin Dependency Resolved: commons-io-2.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.9.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.21.jar
+[INFO]     Plugin Dependency Resolved: xstream-1.4.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.3.jar
+[INFO]     Plugin Dependency Resolved: maven-mapping-1.0.jar
+[INFO] Plugin Resolved: maven-ejb-plugin-2.5.1.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.6.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.10.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.21.jar
+[INFO]     Plugin Dependency Resolved: commons-io-2.2.jar
+[INFO] Plugin Resolved: maven-install-plugin-2.4.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-manager-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-digest-1.0.jar
+[INFO] Plugin Resolved: maven-clean-plugin-2.5.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.jar
+[INFO] Plugin Resolved: maven-site-plugin-3.3.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-exec-1.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-model-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-builder-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.4.2.jar
+[INFO]     Plugin Dependency Resolved: doxia-sink-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-logging-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-core-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-xhtml-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-apt-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-xdoc-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-fml-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-markdown-1.4.jar
+[INFO]     Plugin Dependency Resolved: servlet-api-2.5.jar
+[INFO]     Plugin Dependency Resolved: doxia-decoration-model-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-site-renderer-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-integration-tools-1.5.jar
+[INFO]     Plugin Dependency Resolved: wagon-provider-api-1.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-1.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-i18n-1.0-beta-7.jar
+[INFO]     Plugin Dependency Resolved: velocity-1.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-velocity-1.1.8.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.5.10.jar
+[INFO]     Plugin Dependency Resolved: jetty-6.1.25.jar
+[INFO]     Plugin Dependency Resolved: jetty-util-6.1.25.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.5.jar
+[INFO]     Plugin Dependency Resolved: commons-io-1.4.jar
+[INFO] Plugin Resolved: maven-surefire-plugin-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: surefire-booter-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: maven-surefire-common-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.8.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-toolchain-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-annotations-3.1.jar
+[INFO] Plugin Resolved: maven-jar-plugin-2.2.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.7.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-1.0-alpha-9.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-1.0-alpha-1.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.4.9.jar
+[INFO] Plugin Resolved: maven-dependency-plugin-2.10.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-manager-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-repository-metadata-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-api-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-impl-2.2.jar
+[INFO]     Plugin Dependency Resolved: commons-io-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-sink-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-site-renderer-1.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.9.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: file-management-1.2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-2.4.jar
+[INFO]     Plugin Dependency Resolved: maven-dependency-analyzer-1.6.jar
+[INFO]     Plugin Dependency Resolved: maven-dependency-tree-2.2.jar
+[INFO]     Plugin Dependency Resolved: maven-common-artifact-filters-1.4.jar
+[INFO]     Plugin Dependency Resolved: maven-invoker-2.1.1.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.6.jar
+[INFO]     Plugin Dependency Resolved: commons-collections-3.2.1.jar
+[INFO]     Plugin Dependency Resolved: classworlds-1.1.jar
+[INFO] Plugin Resolved: maven-ear-plugin-2.8.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.1.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-container-default-1.0-alpha-9-stable-1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.0-beta-2.jar
+[INFO] Plugin Resolved: maven-compiler-plugin-2.0.2.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.0.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-api-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-manager-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-javac-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.jar
+[INFO] Plugin Resolved: maven-deploy-plugin-2.7.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.5.6.jar
+[INFO] Plugin Resolved: maven-resources-plugin-2.7.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-monitor-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.15.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.19.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ group-5 ---
+[INFO] Installing F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-5\target\group-5-1.0.jar to f:\ws\m3-its\it-local-repo\org\apache\maven\its\bootstrap\group-5\1.0\group-5-1.0.jar
+[INFO] Installing F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-5\pom.xml to f:\ws\m3-its\it-local-repo\org\apache\maven\its\bootstrap\group-5\1.0\group-5-1.0.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Integration Test :: Boostrap :: Group-6 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/its/maven-core-it-support/1.4/maven-core-it-support-1.4.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/its/maven-core-it-support/1.4/maven-core-it-support-1.4.pom (2 KB at 23.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/commons-io/commons-io/1.0/commons-io-1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/commons-io/commons-io/1.0/commons-io-1.0.pom (6 KB at 76.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-script-ant/2.1.0/maven-script-ant-2.1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-script-ant/2.1.0/maven-script-ant-2.1.0.pom (3 KB at 36.5 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-script/2.1.0/maven-script-2.1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-script/2.1.0/maven-script-2.1.0.pom (2 KB at 19.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-ant-factory/1.0-alpha-2.1/plexus-ant-factory-1.0-alpha-2.1.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-ant-factory/1.0-alpha-2.1/plexus-ant-factory-1.0-alpha-2.1.pom (2 KB at 20.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/1.0-alpha-11/plexus-archiver-1.0-alpha-11.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/1.0-alpha-11/plexus-archiver-1.0-alpha-11.pom (2 KB at 26.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/1.0-alpha-3/plexus-io-1.0-alpha-3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/1.0-alpha-3/plexus-io-1.0-alpha-3.pom (2 KB at 17.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.2/maven-site-plugin-3.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.2/maven-site-plugin-3.2.pom (20 KB at 253.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-exec/1.0.2/maven-reporting-exec-1.0.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-exec/1.0.2/maven-reporting-exec-1.0.2.pom (9 KB at 127.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/velocity/velocity/1.5/velocity-1.5.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/velocity/velocity/1.5/velocity-1.5.pom (8 KB at 113.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-archiver/2.4.2/maven-archiver-2.4.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-archiver/2.4.2/maven-archiver-2.4.2.pom (4 KB at 60.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-components/16/maven-shared-components-16.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-components/16/maven-shared-components-16.pom (9 KB at 116.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.0.1/plexus-archiver-2.0.1.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.0.1/plexus-archiver-2.0.1.pom (3 KB at 38.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.0.1/plexus-io-2.0.1.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.0.1/plexus-io-2.0.1.pom (2 KB at 24.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom (890 B at 12.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.3/doxia-sink-api-1.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.3/doxia-sink-api-1.3.pom (2 KB at 23.5 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.3/doxia-1.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.3/doxia-1.3.pom (18 KB at 249.4 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.3/doxia-logging-api-1.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.3/doxia-logging-api-1.3.pom (2 KB at 23.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.3/doxia-core-1.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.3/doxia-core-1.3.pom (5 KB at 60.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.3/doxia-module-xhtml-1.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.3/doxia-module-xhtml-1.3.pom (2 KB at 24.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-modules/1.3/doxia-modules-1.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-modules/1.3/doxia-modules-1.3.pom (3 KB at 36.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.3/doxia-module-apt-1.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.3/doxia-module-apt-1.3.pom (3 KB at 32.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.3/doxia-module-xdoc-1.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.3/doxia-module-xdoc-1.3.pom (6 KB at 69.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.3/doxia-module-fml-1.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.3/doxia-module-fml-1.3.pom (6 KB at 66.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.3/doxia-decoration-model-1.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.3/doxia-decoration-model-1.3.pom (3 KB at 37.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.3/doxia-sitetools-1.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.3/doxia-sitetools-1.3.pom (16 KB at 218.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.3/doxia-site-renderer-1.3.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.3/doxia-site-renderer-1.3.pom (7 KB at 55.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-integration-tools/1.5/doxia-integration-tools-1.5.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-integration-tools/1.5/doxia-integration-tools-1.5.pom (7 KB at 87.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-tools/2/doxia-tools-2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-tools/2/doxia-tools-2.pom (12 KB at 124.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.pom (2 KB at 23.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/1.0/plexus-io-1.0.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/1.0/plexus-io-1.0.pom (2 KB at 8.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.5.10/plexus-utils-1.5.10.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.5.10/plexus-utils-1.5.10.pom (6 KB at 84.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (8 KB at 118.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom (10 KB at 144.5 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http/1.0-beta-6/wagon-http-1.0-beta-6.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http/1.0-beta-6/wagon-http-1.0-beta-6.pom (4 KB at 45.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-providers/1.0-beta-6/wagon-providers-1.0-beta-6.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-providers/1.0-beta-6/wagon-providers-1.0-beta-6.pom (3 KB at 28.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http-shared/1.0-beta-6/wagon-http-shared-1.0-beta-6.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http-shared/1.0-beta-6/wagon-http-shared-1.0-beta-6.pom (3 KB at 28.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-webdav-jackrabbit/1.0-beta-6/wagon-webdav-jackrabbit-1.0-beta-6.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-webdav-jackrabbit/1.0-beta-6/wagon-webdav-jackrabbit-1.0-beta-6.pom (4 KB at 46.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom (865 B at 12.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom (4 KB at 51.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom (690 B at 10.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom (769 B at 11.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom (2 KB at 17.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/its/maven-core-it-support/1.4/maven-core-it-support-1.4.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-ant-factory/1.0-alpha-2.1/plexus-ant-factory-1.0-alpha-2.1.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/commons-io/commons-io/1.0/commons-io-1.0.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-script-ant/2.1.0/maven-script-ant-2.1.0.jar
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/1.0-alpha-11/plexus-archiver-1.0-alpha-11.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/its/maven-core-it-support/1.4/maven-core-it-support-1.4.jar (3 KB at 40.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-api/1.0-alpha-15/plexus-component-api-1.0-alpha-15.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-ant-factory/1.0-alpha-2.1/plexus-ant-factory-1.0-alpha-2.1.jar (10 KB at 144.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/1.0-alpha-3/plexus-io-1.0-alpha-3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-script-ant/2.1.0/maven-script-ant-2.1.0.jar (18 KB at 247.1 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.2/maven-site-plugin-3.2.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/commons-io/commons-io/1.0/commons-io-1.0.jar (45 KB at 626.5 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-exec/1.0.2/maven-reporting-exec-1.0.2.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/1.0-alpha-11/plexus-archiver-1.0-alpha-11.jar (170 KB at 1326.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/velocity/velocity/1.5/velocity-1.5.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-api/1.0-alpha-15/plexus-component-api-1.0-alpha-15.jar (32 KB at 231.6 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.3/doxia-sink-api-1.3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/1.0-alpha-3/plexus-io-1.0-alpha-3.jar (46 KB at 337.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.3/doxia-logging-api-1.3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-exec/1.0.2/maven-reporting-exec-1.0.2.jar (22 KB at 155.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.3/doxia-core-1.3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.2/maven-site-plugin-3.2.jar (119 KB at 718.0 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.3/doxia-module-xhtml-1.3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.3/doxia-logging-api-1.3.jar (12 KB at 55.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.3/doxia-module-apt-1.3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.3/doxia-sink-api-1.3.jar (11 KB at 54.9 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.3/doxia-module-xdoc-1.3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.3/doxia-module-xhtml-1.3.jar (15 KB at 63.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.3/doxia-module-fml-1.3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.3/doxia-core-1.3.jar (156 KB at 600.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.3/doxia-decoration-model-1.3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.3/doxia-module-apt-1.3.jar (51 KB at 190.7 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.3/doxia-site-renderer-1.3.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.3/doxia-module-xdoc-1.3.jar (36 KB at 133.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.3/doxia-module-fml-1.3.jar (37 KB at 123.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.3/doxia-decoration-model-1.3.jar (60 KB at 183.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.3/doxia-site-renderer-1.3.jar (53 KB at 156.2 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (29 KB at 85.5 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/velocity/velocity/1.5/velocity-1.5.jar (383 KB at 1060.8 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar (11 KB at 27.3 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar (60 KB at 152.5 KB/sec)
+[INFO] Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar (42 KB at 103.8 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.jar (33 KB at 79.6 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar (25 KB at 57.4 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar (5 KB at 10.2 KB/sec)
+[INFO] Downloaded: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar (19 KB at 40.6 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ group-6 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-6\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ group-6 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ group-6 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ group-6 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ group-6 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ group-6 ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-6\target\group-6-1.0.jar
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:resolve-plugins (get-all-deps) @ group-6 ---
+[INFO] Plugin Resolved: maven-war-plugin-2.6.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-2.4.1.jar
+[INFO]     Plugin Dependency Resolved: commons-io-2.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.9.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.21.jar
+[INFO]     Plugin Dependency Resolved: xstream-1.4.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.3.jar
+[INFO]     Plugin Dependency Resolved: maven-mapping-1.0.jar
+[INFO] Plugin Resolved: maven-ejb-plugin-2.5.1.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.6.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.10.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.21.jar
+[INFO]     Plugin Dependency Resolved: commons-io-2.2.jar
+[INFO] Plugin Resolved: maven-install-plugin-2.4.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-manager-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-digest-1.0.jar
+[INFO] Plugin Resolved: maven-clean-plugin-2.5.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.jar
+[INFO] Plugin Resolved: maven-site-plugin-3.3.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-exec-1.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-model-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-builder-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.4.2.jar
+[INFO]     Plugin Dependency Resolved: doxia-sink-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-logging-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-core-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-xhtml-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-apt-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-xdoc-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-fml-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-module-markdown-1.4.jar
+[INFO]     Plugin Dependency Resolved: servlet-api-2.5.jar
+[INFO]     Plugin Dependency Resolved: doxia-decoration-model-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-site-renderer-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-integration-tools-1.5.jar
+[INFO]     Plugin Dependency Resolved: wagon-provider-api-1.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-1.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-i18n-1.0-beta-7.jar
+[INFO]     Plugin Dependency Resolved: velocity-1.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-velocity-1.1.8.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.5.10.jar
+[INFO]     Plugin Dependency Resolved: jetty-6.1.25.jar
+[INFO]     Plugin Dependency Resolved: jetty-util-6.1.25.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.5.jar
+[INFO]     Plugin Dependency Resolved: commons-io-1.4.jar
+[INFO] Plugin Resolved: maven-surefire-plugin-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: surefire-booter-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: maven-surefire-common-2.12.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.8.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-toolchain-2.0.9.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-annotations-3.1.jar
+[INFO] Plugin Resolved: maven-jar-plugin-2.2.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.7.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-1.0-alpha-9.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-1.0-alpha-1.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.4.9.jar
+[INFO] Plugin Resolved: maven-dependency-plugin-2.10.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-manager-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-repository-metadata-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-api-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-reporting-impl-2.2.jar
+[INFO]     Plugin Dependency Resolved: commons-io-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-sink-api-1.4.jar
+[INFO]     Plugin Dependency Resolved: doxia-site-renderer-1.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.9.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.20.jar
+[INFO]     Plugin Dependency Resolved: file-management-1.2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-io-2.4.jar
+[INFO]     Plugin Dependency Resolved: maven-dependency-analyzer-1.6.jar
+[INFO]     Plugin Dependency Resolved: maven-dependency-tree-2.2.jar
+[INFO]     Plugin Dependency Resolved: maven-common-artifact-filters-1.4.jar
+[INFO]     Plugin Dependency Resolved: maven-invoker-2.1.1.jar
+[INFO]     Plugin Dependency Resolved: commons-lang-2.6.jar
+[INFO]     Plugin Dependency Resolved: commons-collections-3.2.1.jar
+[INFO]     Plugin Dependency Resolved: classworlds-1.1.jar
+[INFO] Plugin Resolved: maven-ear-plugin-2.8.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-archiver-2.5.jar
+[INFO]     Plugin Dependency Resolved: plexus-archiver-2.1.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-container-default-1.0-alpha-9-stable-1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.0-beta-2.jar
+[INFO] Plugin Resolved: maven-compiler-plugin-2.0.2.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.0.4.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-api-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-manager-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: plexus-compiler-javac-1.5.3.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.jar
+[INFO] Plugin Resolved: maven-deploy-plugin-2.7.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.0.6.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-1.5.6.jar
+[INFO] Plugin Resolved: maven-resources-plugin-2.7.jar
+[INFO]     Plugin Dependency Resolved: maven-plugin-api-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-project-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-core-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-artifact-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-settings-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-model-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: maven-monitor-2.2.1.jar
+[INFO]     Plugin Dependency Resolved: plexus-utils-3.0.15.jar
+[INFO]     Plugin Dependency Resolved: maven-filtering-1.2.jar
+[INFO]     Plugin Dependency Resolved: plexus-interpolation-1.19.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ group-6 ---
+[INFO] Installing F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-6\target\group-6-1.0.jar to f:\ws\m3-its\it-local-repo\org\apache\maven\its\bootstrap\group-6\1.0\group-6-1.0.jar
+[INFO] Installing F:\ws\m3-its\core-integration-testing-trunk\core-it-suite\target\test-classes\bootstrap\group-6\pom.xml to f:\ws\m3-its\it-local-repo\org\apache\maven\its\bootstrap\group-6\1.0\group-6-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Maven Integration Test :: Boostrap ................. SUCCESS [ 14.972 s]
+[INFO] Maven Integration Test :: Boostrap :: Group-1 ...... SUCCESS [  3.429 s]
+[INFO] Maven Integration Test :: Boostrap :: Group-2 ...... SUCCESS [  0.963 s]
+[INFO] Maven Integration Test :: Boostrap :: Group-3 ...... SUCCESS [  1.153 s]
+[INFO] Maven Integration Test :: Boostrap :: Group-4 ...... SUCCESS [  0.670 s]
+[INFO] Maven Integration Test :: Boostrap :: Group-5 ...... SUCCESS [  3.332 s]
+[INFO] Maven Integration Test :: Boostrap :: Group-6 ...... SUCCESS [  4.316 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 29.084 s
+[INFO] Finished at: 2015-12-12T14:31:51+00:00
+[INFO] Final Memory: 20M/736M
+[INFO] ------------------------------------------------------------------------
