@@ -5,24 +5,22 @@
   <parent>
     <groupId>com.soebes.smpp</groupId>
     <artifactId>smpp</artifactId>
-    <version>4.0.1</version>
+    <version>1.2.0</version>
   </parent>
 
   <groupId>com.soebes.examples.j2ee</groupId>
   <artifactId>parent</artifactId>
-  <version>5.0.1-SNAPSHOT</version>
+  <version>${revision}</version>
   <packaging>pom</packaging>
 
   <properties>
+    <revision>1.0-SNAPSHOT</revision>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.target>1.6</maven.compiler.target>
-    <maven.compiler.source>1.6</maven.compiler.source>
-    <log4j.version>1.2.16</log4j.version>
   </properties>
 
   <scm>
-    <developerConnection>scm:git:ssh://git@github.com/khmarbaise/javaee.git</developerConnection>
-    <connection>scm:git:https://github.com/khmarbaise/javaee.git</connection>
+    <developerConnection>scm:git:git@github.com:khmarbaise/javaee.git</developerConnection>
+    <connection>scm:git:git://github.com/khmarbaise/javaee.git</connection>
     <url>https://github.com/khmarbaise/javaee</url>
     <tag>HEAD</tag>
   </scm>
@@ -41,7 +39,7 @@
       <url>file://${HOME}/distribution/site/</url>
     </site>
   </distributionManagement>
-  
+
   <build>
     <pluginManagement>
       <plugins>
@@ -129,75 +127,23 @@
     </pluginManagement>
   </build>
 
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-release-plugin</artifactId>
-          <version>2.5</version>
-          <configuration>
-            <autoVersionSubmodules>true</autoVersionSubmodules>
-          </configuration>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-    <plugins>
-      <!--
-        <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-toolchains-plugin</artifactId>
-        <version>1.1</version>
-        <executions>
-        <execution>
-        <goals>
-        <goal>toolchain</goal>
-        </goals>
-        </execution>
-        </executions>
-        <configuration>
-        <toolchains>
-        <jdk>
-        <version>1.6</version>
-        <vendor>oracle</vendor>
-        </jdk>
-        </toolchains>
-        </configuration>
-        </plugin>
-      -->
-    </plugins>
-  </build>
-
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.11</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.testng</groupId>
-        <artifactId>testng</artifactId>
-        <version>6.8.8</version>
-        <scope>test</scope>
-      </dependency>
-      <!--
-      <dependency>
-        <groupId>log4j</groupId>
-        <artifactId>log4j</artifactId>
-        <version>1.2.16</version>
-      </dependency>
-      -->
-      <dependency>
-        <groupId>javax</groupId>
-        <artifactId>javaee-api</artifactId>
-        <version>6.0</version>
-        <scope>provided</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
-
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+    </dependency>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.8.8</version>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.16</version>
+    </dependency>
+  </dependencies>
   <modules>
     <module>webgui</module>
     <module>app</module>
