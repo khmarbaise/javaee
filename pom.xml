@@ -28,7 +28,7 @@
 
   <distributionManagement>
     <repository>
-      <id>releases</id>
+      <id>nexus-staging</id>
       <url>http://localhost:8081/nexus/service/local/staging/deploy/maven2</url>
     </repository>
     <snapshotRepository>
