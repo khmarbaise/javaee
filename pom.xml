@@ -34,7 +34,8 @@
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+      <url>file:///Users/kama/maven-repository/</url>
+      <uniqueVersion>false</uniqueVersion>
     </snapshotRepository>
     <site>
       <id>site</id>
@@ -53,7 +54,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jar-plugin</artifactId>
-          <version>3.0.1</version>
+          <version>3.0.2-SNAPSHOT</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
