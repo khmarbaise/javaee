@@ -14,7 +14,6 @@
   <packaging>pom</packaging>
 
   <properties>
-    <revision>1.1.2</revision>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.target>1.6</maven.compiler.target>
     <maven.compiler.source>1.6</maven.compiler.source>
@@ -105,5 +104,19 @@
     <module>assembly</module>
     <module>shade</module>
   </modules>
+
+  <profiles>
+    <profile>
+      <id>default-version</id>
+      <activation>
+        <property>
+          <name>!revision</name>
+        </property>
+      </activation>
+      <properties>
+        <revision>1.3.0-SNAPSHOT</revision>
+      </properties>
+    </profile>
+  </profiles>
 
 </project>
