@@ -8,6 +8,7 @@
     <version>${revision}</version>
   </parent>
 
+
   <artifactId>domain</artifactId>
 
   <dependencies>
