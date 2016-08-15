@@ -29,7 +29,7 @@
   <distributionManagement>
     <repository>
       <id>releases</id>
-      <url>http://localhost:9081/repository/maven-releases/</url>
+      <url>http://localhost:8081/nexus/service/local/staging/deploy/maven2</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
@@ -76,6 +76,21 @@
           </execution>
         </executions>
       </plugin>
+      <!--
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>build-helper-maven-plugin</artifactId>
+        <version>1.13-SNAPSHOT</version>
+        <executions>
+          <execution>
+            <id>get-root-location</id>
+            <goals>
+              <goal>rootlocation</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      -->
     </plugins>
   </build>
   <dependencies>
