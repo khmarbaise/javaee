@@ -3,7 +3,7 @@ project {
   parent {
     groupId 'com.soebes.smpp'
     artifactId 'smpp'
-    version '1.0.0'
+    version '2.2.1'
   }
   groupId 'com.soebes.examples.j2ee'
   artifactId 'parent'
