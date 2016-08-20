@@ -125,7 +125,6 @@
     <module>shade</module>
   </modules>
 
-  <!--
   <profiles>
     <profile>
       <id>default-version</id>
@@ -139,6 +138,5 @@
       </properties>
     </profile>
   </profiles>
-  -->
 
 </project>
