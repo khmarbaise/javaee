@@ -4,7 +4,7 @@
   <extension>
     <groupId>com.soebes.maven.extensions</groupId>
     <artifactId>maven-buildtime-profiler</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.0</version>
   </extension>
 
 </extensions>
