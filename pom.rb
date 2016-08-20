@@ -2,12 +2,12 @@ project 'parent' do
 
   model_version '4.0.0'
   id 'com.soebes.examples.j2ee:parent:1.1.2-SNAPSHOT'
-  inherit 'com.soebes.smpp:smpp:1.0.0'
+  inherit 'com.soebes.smpp:smpp:2.2.1'
   packaging 'pom'
 
   source_control( :url => 'https://github.com/khmarbaise/javaee',
-                  :connection => 'scm:git:git://github.com/khmarbaise/javaee.git',
-                  :developer_connection => 'scm:git:git@github.com:khmarbaise/javaee.git' )
+                  :connection => 'scm:git:https://github.com/khmarbaise/javaee.git',
+                  :developer_connection => 'scm:git:ssh://git@github.com/khmarbaise/javaee.git' )
 
   distribution do
     repository( :id => 'releases',
