@@ -20,8 +20,8 @@ project {
     module 'shade'
   }
   scm {
-    connection 'scm:git:git://github.com/khmarbaise/javaee.git'
-    developerConnection 'scm:git:git@github.com:khmarbaise/javaee.git'
+    connection 'scm:git:https://github.com/khmarbaise/javaee.git'
+    developerConnection 'scm:git:ssh://git@github.com/khmarbaise/javaee.git'
     url 'https://github.com/khmarbaise/javaee'
   }
   distributionManagement {
