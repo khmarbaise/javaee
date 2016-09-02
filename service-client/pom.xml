@@ -17,21 +17,5 @@
       <version>${project.version}</version>
     </dependency>
   </dependencies>
-  <build>
-  <plugins>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>build-helper-maven-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>get-root-location</id>
-            <goals>
-              <goal>rootlocation</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
 
 </project>
