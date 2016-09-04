@@ -36,7 +36,7 @@
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
-      <url>http://localhost:9081/repository/maven-snapshots/</url>
+      <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
       <uniqueVersion>false</uniqueVersion>
     </snapshotRepository>
     <site>
