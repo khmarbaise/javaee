@@ -39,7 +39,7 @@
     </snapshotRepository>
     <site>
       <id>site</id>
-      <url>file://${HOME}/distribution/site/</url>
+      <url>dav:http://localhost:8081/nexus/content/sites/maven-site/${project.groupId}/</url>
     </site>
   </distributionManagement>
   
