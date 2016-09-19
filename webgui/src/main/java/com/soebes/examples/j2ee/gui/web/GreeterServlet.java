@@ -13,7 +13,7 @@ import com.soebes.examples.j2ee.domain.Name;
 import com.soebes.examples.j2ee.sevice.api.Greeter;
 
 
-@WebServlet("/greet")
+@WebServlet(name = "GreeterController", urlPatterns = {"/greet"})
 @SuppressWarnings("serial")
 public class GreeterServlet extends HttpServlet {
 
