@@ -13,60 +13,25 @@
 
   <dependencies>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.soebes.examples.j2ee</groupId>
       <artifactId>webgui</artifactId>
       <version>${project.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.soebes.examples.j2ee</groupId>
       <artifactId>service</artifactId>
       <version>${project.version}</version>
       <type>ejb</type>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.soebes.examples.j2ee</groupId>
       <artifactId>shade</artifactId>
       <version>${project.version}</version>
     </dependency>
   </dependencies>
 
-  <profiles>
-    <profile>
-      <id>first</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>com.soebes.maven.plugins</groupId>
-            <artifactId>echo-maven-plugin</artifactId>
-            <executions>
-              <execution>
-                <phase>initialize</phase>
-                <goals>
-                  <goal>echo</goal>
-                </goals>
-              </execution>
-            </executions>
-            <configuration>
-              <echos>
-                <echo>This is controlled by a Profile 'first'</echo>
-              </echos>
-            </configuration>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-  </profiles>
   <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>com.soebes.maven.plugins</groupId>
-          <artifactId>echo-maven-plugin</artifactId>
-          <version>0.3.0</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

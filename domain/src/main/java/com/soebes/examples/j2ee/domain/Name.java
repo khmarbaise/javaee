@@ -1,19 +1,20 @@
 package com.soebes.examples.j2ee.domain;
 
-public final class Name {
+import java.io.Serializable;
 
-    private final String name;
+public final class Name implements Serializable {
 
-    public Name(String name) {
-        this.name = name;
-    }
+	private static final long serialVersionUID = 1L;
 
-    public void ThisIsTest() {
-      //
-    }
-    @Override
-    public String toString() {
-        return name;
-    }
+	private final String name;
+
+	public Name(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return name;
+	}
 
 }
