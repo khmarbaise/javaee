@@ -11,7 +11,7 @@
 
   <groupId>com.soebes.examples.j2ee</groupId>
   <artifactId>parent</artifactId>
-  <version>1.1.2-SNAPSHOT</version>
+  <version>3.4.5-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <properties>
