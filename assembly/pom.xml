@@ -36,6 +36,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
+        <version>3.0.0</version>
         <executions>
           <execution>
             <id>assemblies</id>
@@ -45,9 +46,11 @@
             </goals>
             <configuration>
               <descriptors>
-                <descriptor>assembly.xml</descriptor>
                 <descriptor>jar-with-prod.xml</descriptor>
+                <!--
+                <descriptor>assembly.xml</descriptor>
                 <descriptor>jar-with-dev.xml</descriptor>
+                -->
               </descriptors>
             </configuration>
           </execution>
