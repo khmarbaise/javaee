@@ -47,10 +47,8 @@
             <configuration>
               <descriptors>
                 <descriptor>jar-with-prod.xml</descriptor>
-                <!--
                 <descriptor>assembly.xml</descriptor>
                 <descriptor>jar-with-dev.xml</descriptor>
-                -->
               </descriptors>
             </configuration>
           </execution>
