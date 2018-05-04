@@ -5,7 +5,9 @@ node {
 
     stage ('Maven Build') {
       withMaven ( jdk:'JDK-1.8', maven: 'Maven 3.5.3', mavenLocalRepo: '.repository') {
-          sh "mvn clean install"
+          steps {
+            sh "mvn clean install"
+          }
       }
     }
 }    
