@@ -1,9 +1,9 @@
 node {
-    stage 'Checkout' {
+    stage ('Checkout') {
       checkout scm
     }
 
-    stage 'Maven Build' {
+    stage ('Maven Build') {
 
       withMaven (
         maven: 'Maven 3.5.3',
