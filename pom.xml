@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.soebes.smpp</groupId>
     <artifactId>smpp</artifactId>
-    <version>3.1.0</version>
+    <version>4.0.0</version>
   </parent>
 
   <groupId>com.soebes.examples.j2ee</groupId>
@@ -47,11 +47,8 @@
       <plugins>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-ear-plugin</artifactId>
-          <version>3.0.0</version>
-          <configuration>
-            <defaultLibBundleDir>lib</defaultLibBundleDir>
-          </configuration>
+          <artifactId>maven-enforcer-plugin</artifactId>
+          <version>3.0.0-M2</version>
         </plugin>
       </plugins>
     </pluginManagement>
