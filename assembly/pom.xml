@@ -28,6 +28,19 @@
       <groupId>com.soebes.examples.j2ee</groupId>
       <artifactId>shade</artifactId>
       <version>${project.version}</version>
+      <classifier>dev</classifier>
+    </dependency>
+    <dependency>
+      <groupId>com.soebes.examples.j2ee</groupId>
+      <artifactId>shade</artifactId>
+      <version>${project.version}</version>
+      <classifier>test</classifier>
+    </dependency>
+    <dependency>
+      <groupId>com.soebes.examples.j2ee</groupId>
+      <artifactId>shade</artifactId>
+      <version>${project.version}</version>
+      <classifier>prod</classifier>
     </dependency>
   </dependencies>
 
