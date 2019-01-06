@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.soebes.examples.j2ee</groupId>
     <artifactId>parent</artifactId>
-    <version>5.1.1-SNAPSHOT</version>
+    <version>${revision}</version>
   </parent>
 
   <artifactId>domain</artifactId>
