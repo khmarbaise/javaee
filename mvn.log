@@ -1,0 +1,396 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] parent                                                             [pom]
+[INFO] domain                                                             [jar]
+[INFO] service-client                                                     [jar]
+[INFO] webgui                                                             [war]
+[INFO] service                                                            [ejb]
+[INFO] app                                                                [ear]
+[INFO] appasm                                                             [pom]
+[INFO] shade                                                              [jar]
+[INFO] assembly                                                           [pom]
+[INFO] 
+[INFO] ------------------< com.soebes.examples.j2ee:parent >-------------------
+[INFO] Building parent 1.0.0-SNAPSHOT                                     [1/9]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.1:prepare-agent (default) @ parent ---
+[INFO] argLine set to -javaagent:/Users/khmarbaise/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar=destfile=/Users/khmarbaise/ws-git/javaee/target/jacoco.exec
+[INFO] 
+[INFO] ------------------< com.soebes.examples.j2ee:domain >-------------------
+[INFO] Building domain 1.0.0-SNAPSHOT                                     [2/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ domain ---
+[INFO] Deleting /Users/khmarbaise/ws-git/javaee/domain/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ domain ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.1:prepare-agent (default) @ domain ---
+[INFO] argLine set to -javaagent:/Users/khmarbaise/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar=destfile=/Users/khmarbaise/ws-git/javaee/domain/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ domain ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/khmarbaise/ws-git/javaee/domain/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ domain ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/khmarbaise/ws-git/javaee/domain/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ domain ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/khmarbaise/ws-git/javaee/domain/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ domain ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/khmarbaise/ws-git/javaee/domain/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ domain ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.soebes.examples.j2ee.domain.NameTest
+------------
+    k:user.country.format v:DE
+    k:gopherProxySet v:false
+    k:path.separator v::
+    k:file.encoding.pkg v:sun.io
+    k:user.country v:GB
+    k:user.dir v:/Users/khmarbaise/ws-git/javaee/domain
+    k:basedir v:/Users/khmarbaise/ws-git/javaee/domain
+    k:os.arch v:x86_64
+    k:surefire.real.class.path v:/Users/khmarbaise/ws-git/javaee/domain/target/surefire/surefirebooter8003219536487213959.jar:/Users/khmarbaise/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar
+    k:line.separator v:
+
+    k:os.name v:Mac OS X
+    k:surefire.test.class.path v:/Users/khmarbaise/ws-git/javaee/domain/target/test-classes:/Users/khmarbaise/ws-git/javaee/domain/target/classes:/Users/khmarbaise/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/Users/khmarbaise/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/khmarbaise/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:
+    k:os.version v:10.14.2
+    k:http.nonProxyHosts v:local|*.local|169.254/16|*.169.254/16
+    k:user.home v:/Users/khmarbaise
+    k:user.timezone v:
+    k:file.encoding v:UTF-8
+    k:user.name v:khmarbaise
+    k:user.language v:en
+    k:awt.toolkit v:sun.lwawt.macosx.LWCToolkit
+    k:enforcer.skip v:true
+    k:localRepository v:/Users/khmarbaise/.m2/repository
+    k:file.separator v:/
+    k:socksNonProxyHosts v:local|*.local|169.254/16|*.169.254/16
+    k:ftp.nonProxyHosts v:local|*.local|169.254/16|*.169.254/16
+    k:revision v:1.0.0-SNAPSHOT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in com.soebes.examples.j2ee.domain.NameTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --------------< com.soebes.examples.j2ee:service-client >---------------
+[INFO] Building service-client 1.0.0-SNAPSHOT                             [3/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ service-client ---
+[INFO] Deleting /Users/khmarbaise/ws-git/javaee/service-client/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ service-client ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.1:prepare-agent (default) @ service-client ---
+[INFO] argLine set to -javaagent:/Users/khmarbaise/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar=destfile=/Users/khmarbaise/ws-git/javaee/service-client/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ service-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/khmarbaise/ws-git/javaee/service-client/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ service-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/khmarbaise/ws-git/javaee/service-client/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ service-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/khmarbaise/ws-git/javaee/service-client/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ service-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/khmarbaise/ws-git/javaee/service-client/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ service-client ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.soebes.examples.j2ee.sevice.api.GreeterTest
+------------
+    k:user.country.format v:DE
+    k:gopherProxySet v:false
+    k:path.separator v::
+    k:file.encoding.pkg v:sun.io
+    k:user.country v:GB
+    k:user.dir v:/Users/khmarbaise/ws-git/javaee/service-client
+    k:basedir v:/Users/khmarbaise/ws-git/javaee/service-client
+    k:os.arch v:x86_64
+    k:surefire.real.class.path v:/Users/khmarbaise/ws-git/javaee/service-client/target/surefire/surefirebooter5743909942935949402.jar:/Users/khmarbaise/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar
+    k:line.separator v:
+
+    k:os.name v:Mac OS X
+    k:surefire.test.class.path v:/Users/khmarbaise/ws-git/javaee/service-client/target/test-classes:/Users/khmarbaise/ws-git/javaee/service-client/target/classes:/Users/khmarbaise/ws-git/javaee/domain/target/classes:/Users/khmarbaise/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/Users/khmarbaise/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/khmarbaise/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:
+    k:os.version v:10.14.2
+    k:http.nonProxyHosts v:local|*.local|169.254/16|*.169.254/16
+    k:user.home v:/Users/khmarbaise
+    k:user.timezone v:
+    k:file.encoding v:UTF-8
+    k:user.name v:khmarbaise
+    k:user.language v:en
+    k:awt.toolkit v:sun.lwawt.macosx.LWCToolkit
+    k:enforcer.skip v:true
+    k:localRepository v:/Users/khmarbaise/.m2/repository
+    k:file.separator v:/
+    k:socksNonProxyHosts v:local|*.local|169.254/16|*.169.254/16
+    k:ftp.nonProxyHosts v:local|*.local|169.254/16|*.169.254/16
+    k:revision v:1.0.0-SNAPSHOT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in com.soebes.examples.j2ee.sevice.api.GreeterTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] ------------------< com.soebes.examples.j2ee:webgui >-------------------
+[INFO] Building webgui 1.0.0-SNAPSHOT                                     [4/9]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ webgui ---
+[INFO] Deleting /Users/khmarbaise/ws-git/javaee/webgui/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ webgui ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.1:prepare-agent (default) @ webgui ---
+[INFO] argLine set to -javaagent:/Users/khmarbaise/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar=destfile=/Users/khmarbaise/ws-git/javaee/webgui/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ webgui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/khmarbaise/ws-git/javaee/webgui/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ webgui ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/khmarbaise/ws-git/javaee/webgui/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ webgui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/khmarbaise/ws-git/javaee/webgui/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ webgui ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/khmarbaise/ws-git/javaee/webgui/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ webgui ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.soebes.examples.j2ee.gui.web.GreeterServletTest
+------------
+    k:user.country.format v:DE
+    k:gopherProxySet v:false
+    k:path.separator v::
+    k:file.encoding.pkg v:sun.io
+    k:user.country v:GB
+    k:user.dir v:/Users/khmarbaise/ws-git/javaee/webgui
+    k:basedir v:/Users/khmarbaise/ws-git/javaee/webgui
+    k:os.arch v:x86_64
+    k:surefire.real.class.path v:/Users/khmarbaise/ws-git/javaee/webgui/target/surefire/surefirebooter3805802536469354399.jar:/Users/khmarbaise/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar
+    k:line.separator v:
+
+    k:os.name v:Mac OS X
+    k:surefire.test.class.path v:/Users/khmarbaise/ws-git/javaee/webgui/target/test-classes:/Users/khmarbaise/ws-git/javaee/webgui/target/classes:/Users/khmarbaise/ws-git/javaee/service-client/target/classes:/Users/khmarbaise/ws-git/javaee/domain/target/classes:/Users/khmarbaise/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/Users/khmarbaise/.m2/repository/javax/javaee-api/6.0/javaee-api-6.0.jar:/Users/khmarbaise/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/khmarbaise/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:
+    k:os.version v:10.14.2
+    k:http.nonProxyHosts v:local|*.local|169.254/16|*.169.254/16
+    k:user.home v:/Users/khmarbaise
+    k:user.timezone v:
+    k:file.encoding v:UTF-8
+    k:user.name v:khmarbaise
+    k:user.language v:en
+    k:awt.toolkit v:sun.lwawt.macosx.LWCToolkit
+    k:enforcer.skip v:true
+    k:localRepository v:/Users/khmarbaise/.m2/repository
+    k:file.separator v:/
+    k:socksNonProxyHosts v:local|*.local|169.254/16|*.169.254/16
+    k:ftp.nonProxyHosts v:local|*.local|169.254/16|*.169.254/16
+    k:revision v:1.0.0-SNAPSHOT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s - in com.soebes.examples.j2ee.gui.web.GreeterServletTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] ------------------< com.soebes.examples.j2ee:service >------------------
+[INFO] Building service 1.0.0-SNAPSHOT                                    [5/9]
+[INFO] --------------------------------[ ejb ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ service ---
+[INFO] Deleting /Users/khmarbaise/ws-git/javaee/service/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ service ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.1:prepare-agent (default) @ service ---
+[INFO] argLine set to -javaagent:/Users/khmarbaise/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar=destfile=/Users/khmarbaise/ws-git/javaee/service/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/khmarbaise/ws-git/javaee/service/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/khmarbaise/ws-git/javaee/service/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/khmarbaise/ws-git/javaee/service/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/khmarbaise/ws-git/javaee/service/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ service ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.soebes.examples.j2ee.service.impl.SimpleGreeterTest
+------------
+    k:user.country.format v:DE
+    k:gopherProxySet v:false
+    k:path.separator v::
+    k:file.encoding.pkg v:sun.io
+    k:user.country v:GB
+    k:user.dir v:/Users/khmarbaise/ws-git/javaee/service
+    k:basedir v:/Users/khmarbaise/ws-git/javaee/service
+    k:os.arch v:x86_64
+    k:surefire.real.class.path v:/Users/khmarbaise/ws-git/javaee/service/target/surefire/surefirebooter6601808940141109653.jar:/Users/khmarbaise/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar
+    k:line.separator v:
+
+    k:os.name v:Mac OS X
+    k:surefire.test.class.path v:/Users/khmarbaise/ws-git/javaee/service/target/test-classes:/Users/khmarbaise/ws-git/javaee/service/target/classes:/Users/khmarbaise/ws-git/javaee/service-client/target/classes:/Users/khmarbaise/ws-git/javaee/domain/target/classes:/Users/khmarbaise/.m2/repository/javax/javaee-api/6.0/javaee-api-6.0.jar:/Users/khmarbaise/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/khmarbaise/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/khmarbaise/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:
+    k:os.version v:10.14.2
+    k:http.nonProxyHosts v:local|*.local|169.254/16|*.169.254/16
+    k:user.home v:/Users/khmarbaise
+    k:user.timezone v:
+    k:file.encoding v:UTF-8
+    k:user.name v:khmarbaise
+    k:user.language v:en
+    k:awt.toolkit v:sun.lwawt.macosx.LWCToolkit
+    k:enforcer.skip v:true
+    k:localRepository v:/Users/khmarbaise/.m2/repository
+    k:file.separator v:/
+    k:socksNonProxyHosts v:local|*.local|169.254/16|*.169.254/16
+    k:ftp.nonProxyHosts v:local|*.local|169.254/16|*.169.254/16
+    k:revision v:1.0.0-SNAPSHOT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in com.soebes.examples.j2ee.service.impl.SimpleGreeterTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --------------------< com.soebes.examples.j2ee:app >--------------------
+[INFO] Building app 1.0.0-SNAPSHOT                                        [6/9]
+[INFO] --------------------------------[ ear ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ app ---
+[INFO] Deleting /Users/khmarbaise/ws-git/javaee/app/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ app ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.1:prepare-agent (default) @ app ---
+[INFO] argLine set to -javaagent:/Users/khmarbaise/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar=destfile=/Users/khmarbaise/ws-git/javaee/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-ear-plugin:3.0.1:generate-application-xml (default-generate-application-xml) @ app ---
+[INFO] Generating application.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/khmarbaise/ws-git/javaee/app/src/main/resources
+[INFO] 
+[INFO] ------------------< com.soebes.examples.j2ee:appasm >-------------------
+[INFO] Building appasm 1.0.0-SNAPSHOT                                     [7/9]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ appasm ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ appasm ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.1:prepare-agent (default) @ appasm ---
+[INFO] argLine set to -javaagent:/Users/khmarbaise/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar=destfile=/Users/khmarbaise/ws-git/javaee/appasm/target/jacoco.exec
+[INFO] 
+[INFO] -------------------< com.soebes.examples.j2ee:shade >-------------------
+[INFO] Building shade 1.0.0-SNAPSHOT                                      [8/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ shade ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ shade ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.1:prepare-agent (default) @ shade ---
+[INFO] argLine set to -javaagent:/Users/khmarbaise/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar=destfile=/Users/khmarbaise/ws-git/javaee/shade/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ shade ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/khmarbaise/ws-git/javaee/shade/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ shade ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ shade ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/khmarbaise/ws-git/javaee/shade/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ shade ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ shade ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------------< com.soebes.examples.j2ee:assembly >------------------
+[INFO] Building assembly 1.0.0-SNAPSHOT                                   [9/9]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ assembly ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ assembly ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.1:prepare-agent (default) @ assembly ---
+[INFO] argLine set to -javaagent:/Users/khmarbaise/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar=destfile=/Users/khmarbaise/ws-git/javaee/assembly/target/jacoco.exec
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for parent 1.0.0-SNAPSHOT:
+[INFO] 
+[INFO] parent ............................................. SUCCESS [  0.604 s]
+[INFO] domain ............................................. SUCCESS [  1.797 s]
+[INFO] service-client ..................................... SUCCESS [  0.932 s]
+[INFO] webgui ............................................. SUCCESS [  0.981 s]
+[INFO] service ............................................ SUCCESS [  0.932 s]
+[INFO] app ................................................ SUCCESS [  0.192 s]
+[INFO] appasm ............................................. SUCCESS [  0.008 s]
+[INFO] shade .............................................. SUCCESS [  0.019 s]
+[INFO] assembly ........................................... SUCCESS [  0.008 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.691 s
+[INFO] Finished at: 2019-02-03T21:00:46+01:00
+[INFO] ------------------------------------------------------------------------
