@@ -3,13 +3,14 @@ package com.soebes.examples.j2ee.service.impl;
 import org.junit.Test;
 
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Properties;
 import java.util.function.Predicate;
 
 public class SimpleGreeterTest {
 
-    private final Predicate<Map.Entry<Object, Object>> JAVA = item -> item.getKey().toString().startsWith("java.");
-    private final Predicate<Map.Entry<Object, Object>> SUN = item -> item.getKey().toString().startsWith("sun.");
+    private final Predicate<Entry<Object, Object>> JAVA = item -> item.getKey().toString().startsWith("java.");
+    private final Predicate<Entry<Object, Object>> SUN = item -> item.getKey().toString().startsWith("sun.");
 
     @Test
     public void printout() {
