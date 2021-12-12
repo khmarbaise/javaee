@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.soebes.examples.j2ee</groupId>
     <artifactId>jee-parent</artifactId>
-    <version>${revision}</version>
+    <version>0.1.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>service</artifactId>
