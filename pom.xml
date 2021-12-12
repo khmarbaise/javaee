@@ -16,7 +16,6 @@
   <properties>
     <maven.compiler.target>1.6</maven.compiler.target>
     <maven.compiler.source>1.6</maven.compiler.source>
-    <log4j.version>1.2.16</log4j.version>
   </properties>
 
   <scm>
@@ -35,38 +34,7 @@
       <id>snapshots</id>
       <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
-    <site>
-      <id>site</id>
-      <url>file://${HOME}/distribution/site/</url>
-    </site>
   </distributionManagement>
-
-  <build>
-    <plugins>
-      <!--
-        <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-toolchains-plugin</artifactId>
-        <version>1.1</version>
-        <executions>
-        <execution>
-        <goals>
-        <goal>toolchain</goal>
-        </goals>
-        </execution>
-        </executions>
-        <configuration>
-        <toolchains>
-        <jdk>
-        <version>1.6</version>
-        <vendor>oracle</vendor>
-        </jdk>
-        </toolchains>
-        </configuration>
-        </plugin>
-      -->
-    </plugins>
-  </build>
 
   <dependencyManagement>
     <dependencies>
@@ -81,11 +49,6 @@
         <artifactId>testng</artifactId>
         <version>6.8.8</version>
         <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>log4j</groupId>
-        <artifactId>log4j</artifactId>
-        <version>1.2.16</version>
       </dependency>
       <dependency>
         <groupId>javax</groupId>
